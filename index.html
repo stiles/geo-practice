@@ -129,9 +129,6 @@
             font-family: 'Roboto';
             font-weight: 300;
         }
-        #toggle-button:hover {
-            background-color: var(--tangerine);
-        }
 
         @media only screen and (max-width: 600px) {
             h1 {
@@ -179,21 +176,24 @@
         fetch('data/countries_regions.json')
             .then(response => response.json())
             .then(countryData => {
-                let currentStyle = 'mapbox://styles/stiles/cm3uu7kq4007n01sr22gmhob6';
+                let currentStyle = 'mapbox://styles/stiles/cm3v3manm000901sl7na56rhr';
                 const satelliteStyle = 'mapbox://styles/stiles/cm3uqt9ft00d301sv0lww7k2m';
     
                 const map = new mapboxgl.Map({
                     container: 'map',
                     style: currentStyle,
                     center: [0, 0],
-                    zoom: 4,
+                    zoom: 3,
+                    minZoom: 2,
                     maxZoom: 8,
                 });
+
+                map.addControl(new mapboxgl.NavigationControl(), 'top-left');
     
                 const toggleButton = document.getElementById('toggle-button');
                 toggleButton.addEventListener('click', () => {
                     if (currentStyle === satelliteStyle) {
-                        currentStyle = 'mapbox://styles/stiles/cm3uu7kq4007n01sr22gmhob6';
+                        currentStyle = 'mapbox://styles/stiles/cm3v3manm000901sl7na56rhr';
                         toggleButton.textContent = 'Satellite map';
                     } else {
                         currentStyle = satelliteStyle;
