@@ -73,10 +73,12 @@
             text-align: center;
         }
         .options {
+            max-width: 200;
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
             gap: 10px;
+            padding: 0px 30px; 
         }
         .option {
             padding: 10px 15px;
@@ -133,22 +135,26 @@
 
         @media only screen and (max-width: 600px) {
             h1 {
-            font-size: 30px;
-        }
-        .quiz-container {
-            margin: 0px 20px;
-        }
-        .flag {
-            display: none;
-        }
-        .option {
-            padding: 0px 10px;
-        }
-        .counter {
-            font-size: 14px;
-            font-style: italic;
-            color: #999999;
-        }
+                font-size: 36px;
+            }
+            .quiz-container {
+                margin: 0px 20px;
+            }
+            .flag {
+                display: none;
+            }
+            .option {
+                padding: 0px 10px;
+                font-size: 16px;
+            }
+            p {
+                font-size: 16px;
+            }
+            .counter {
+                font-size: 16px;
+                font-style: italic;
+                color: #888;
+            }
         }
     </style>
 </head>
@@ -239,7 +245,7 @@
                     const optionsEl = document.getElementById('options');
                     const answerDisplay = document.getElementById('answer-display');
     
-                    questionEl.innerHTML = `Which country is this? <p class="counter">(${questionCount} of ${maxQuestions})</p>`;
+                    questionEl.innerHTML = `Which country is this? <p class="counter">(Question ${questionCount} of ${maxQuestions})</p>`;
                     answerDisplay.textContent = '';
     
                     const options = [correctCountry];
