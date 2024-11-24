@@ -68,8 +68,8 @@
     "name": "Antarctica",
     "lat": -75.250973,
     "lon": -0.071389,
-    "region": "Unknown",
-    "sub-region": "Unknown"
+    "region": "Antarctica",
+    "sub-region": "Antarctica"
   },
   {
     "code": "ar",
@@ -1236,8 +1236,8 @@
     "name": "Namibia",
     "lat": -22.95764,
     "lon": 18.49041,
-    "region": "Unknown",
-    "sub-region": "Unknown"
+    "region": "Africa",
+    "sub-region": "Sub-Saharan Africa"
   },
   {
     "code": "nc",
@@ -1856,6 +1856,14 @@
     "sub-region": "Latin America and the Caribbean"
   },
   {
+    "code": "us",
+    "name": "United States",
+    "lat": 39.817075,
+    "lon": -98.362361,
+    "region": "Americas",
+    "sub-region": "Northern America"
+  },
+  {
     "code": "vn",
     "name": "Vietnam",
     "lat": 14.058324,
@@ -1892,8 +1900,8 @@
     "name": "Kosovo",
     "lat": 42.602636,
     "lon": 20.902977,
-    "region": "Unknown",
-    "sub-region": "Unknown"
+    "region": "Europe",
+    "sub-region": "Southern Europe"
   },
   {
     "code": "ye",
