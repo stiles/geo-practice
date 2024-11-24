@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Quiz</title>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --french-gray: #aaabbcff;
+            --battleship-gray: #8b8982ff;
+            --charcoal: #373f47ff;
+            --silver-lake-blue: #6c91c2ff;
+            --periwinkle: #c3c9e9ff;
+            /*  */
+            --pakistangreen: #143109ff;
+            --sage: #aaae7fff;
+            --beige: #d0d6b3ff;
+            --seasalt: #f7f7f7ff;
+            --antiflashwhite: #efefefff;
+            /*  */
+            --darkcyan: #588b8bff;
+            --white: #ffffffff;
+            --apricot: #ffd5c2ff;
+            --tangerine: #f28f3bff;
+            --jasper: #c8553dff;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--white);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            font-family: 'Roboto';
+            font-size: 50px;
+            font-weight: 700;
+        }
+        p {
+            font-family: 'Roboto';
+            font-size: 14px;
+            font-weight: 300;
+            color: #444;
+        }
+        .footer {
+            margin-top: 20px; 
+        }
+        .credits {
+            font-family: 'Roboto';
+            font-size: 12px;
+            color: #666; 
+        }
+        #map {
+            width: 100%;
+            max-width: 2000px;
+            height: 600px;
+            border-radius: 5;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .quiz-container {
+            text-align: center;
+        }
+        .options {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .option {
+            padding: 10px 15px;
+            background-color: #e8e8e8;
+            color: white;
+            border: .5px solid #bbbbbb;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .option:hover {
+            background-color: #dddada;
+        }
+        .flag {
+            max-height: 30px; 
+            height: auto;
+            margin-top: 5px;
+        }
+        .correct {
+            color: var(--darkcyan);
+            font-weight: bold;
+        }
+        .incorrect {
+            color: var(--jasper);
+            font-weight: bold;
+        }
+        .highlight {
+            font-weight: bold;
+        }
+        .answer-display {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            font-style: italic;
+            font-family: 'Roboto';
+            color: var(--charcoal);
+        }
+        #toggle-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            padding: 10px 20px;
+            background-color: var(--jasper);
+            color: white; 
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Roboto';
+            font-weight: 300;
+        }
+        #toggle-button:hover {
+            background-color: var(--tangerine);
+        }
+    </style>
+</head>
+<body>
+    <button id="toggle-button">Switch to satellite map</button>
+    <div id="map"></div>
+    
+    <div class="quiz-container">
+        <h1 id="question"></h1>
+        <div class="answer-display" id="answer-display"></div>
+        <div class="options" id="options"></div>
+    </div>
+    
+    <div class="footer">
+        <p class="credits">Flag images via <a href="https://flagpedia.net/">Flagpedia</a>.</p>
+    </div>
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1Ijoic3RpbGVzIiwiYSI6ImNsd3Rpc3V2aTAzeXUydm9sMHdoN210b2oifQ.66AJmPYxe2ixku1o7Rwdlg';
+    
+        // Load country data dynamically
+        fetch('data/countries_regions.json')
+            .then(response => response.json())
+            .then(countryData => {
+                let currentStyle = 'mapbox://styles/stiles/cm3uu7kq4007n01sr22gmhob6';
+                const satelliteStyle = 'mapbox://styles/stiles/cm3uqt9ft00d301sv0lww7k2m';
+    
+                const map = new mapboxgl.Map({
+                    container: 'map',
+                    style: currentStyle,
+                    center: [0, 0],
+                    zoom: 2,
+                    maxZoom: 8,
+                });
+    
+                const toggleButton = document.getElementById('toggle-button');
+                toggleButton.addEventListener('click', () => {
+                    if (currentStyle === satelliteStyle) {
+                        currentStyle = 'mapbox://styles/stiles/cm3uu7kq4007n01sr22gmhob6';
+                        toggleButton.textContent = 'Switch to satellite map';
+                    } else {
+                        currentStyle = satelliteStyle;
+                        toggleButton.textContent = 'Switch to default map';
+                    }
+                    map.setStyle(currentStyle);
+                });
+    
+                let markers = []; // Array to track markers
+                let score = 0; // User's score
+                let questionCount = 0; // Current question number
+                const maxQuestions = 10; // Total number of questions
+    
+                // Get a random country, optionally filtering by exclusion or region
+                function getRandomCountry(exclude = null, region = null) {
+                    let filtered = countryData.filter(c => c.code !== exclude);
+                    if (region) {
+                        filtered = filtered.filter(c => c.region === region);
+                    }
+                    return filtered[Math.floor(Math.random() * filtered.length)];
+                }
+    
+                function generateQuiz() {
+                    // End quiz if max questions reached
+                    if (questionCount >= maxQuestions) {
+                        showScore();
+                        return;
+                    }
+    
+                    questionCount++; // Increment question count
+                    const correctCountry = getRandomCountry();
+    
+                    // Remove old markers
+                    markers.forEach(marker => marker.remove());
+                    markers = [];
+    
+                    // Add new marker
+                    const marker = new mapboxgl.Marker({ color: 'var(--jasper)' })
+                        .setLngLat([correctCountry.lon, correctCountry.lat])
+                        .addTo(map);
+                    markers.push(marker);
+    
+                    map.flyTo({
+                        center: [correctCountry.lon, correctCountry.lat],
+                        zoom: 4,
+                    });
+    
+                    const questionEl = document.getElementById('question');
+                    const optionsEl = document.getElementById('options');
+                    const answerDisplay = document.getElementById('answer-display');
+    
+                    questionEl.textContent = `Which country is this? (${questionCount} of ${maxQuestions})`;
+                    answerDisplay.textContent = '';
+    
+                    const options = [correctCountry];
+    
+                    // Ensure at least two options are from the same region
+                    while (options.length < 2) {
+                        const sameRegionCountry = getRandomCountry(correctCountry.code, correctCountry.region);
+                        if (!options.some(o => o.code === sameRegionCountry.code)) {
+                            options.push(sameRegionCountry);
+                        }
+                    }
+    
+                    // Add remaining options from any region
+                    while (options.length < 4) {
+                        const randomCountry = getRandomCountry(correctCountry.code);
+                        if (!options.some(o => o.code === randomCountry.code)) {
+                            options.push(randomCountry);
+                        }
+                    }
+    
+                    // Shuffle options
+                    options.sort(() => Math.random() - 0.5);
+    
+                    optionsEl.innerHTML = '';
+                    options.forEach(option => {
+                        const btn = document.createElement('button');
+                        btn.classList.add('option');
+                        btn.innerHTML = `<img src="https://flagcdn.com/w160/${option.code}.png" class="flag"><p>${option.name}</p>`;
+                        btn.addEventListener('click', () => {
+                            if (option.code === correctCountry.code) {
+                                answerDisplay.innerHTML = `<span class="correct">YES!</span> That's <span class="highlight">${correctCountry.name}</span>.`;
+                                score++; // Increment score for correct answer
+                            } else {
+                                answerDisplay.innerHTML = `<span class="incorrect">OOPS!</span> The country is actually <span class="highlight">${correctCountry.name}</span>.`;
+                            }
+                            setTimeout(generateQuiz, 2000);
+                        });
+                        optionsEl.appendChild(btn);
+                    });
+                }
+    
+                function showScore() {
+                    const questionEl = document.getElementById('question');
+                    const optionsEl = document.getElementById('options');
+                    const answerDisplay = document.getElementById('answer-display');
+    
+                    questionEl.textContent = `All done!`;
+                    optionsEl.innerHTML = '';
+                    answerDisplay.innerHTML = `You scored <span class="correct">${score}</span> out of <span class="highlight">${maxQuestions}</span>.`;
+                }
+    
+                map.on('load', generateQuiz);
+            })
+            .catch(error => console.error('Error loading country data:', error));
+    </script>
+</body>
+</html>
