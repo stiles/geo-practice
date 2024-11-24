@@ -43,6 +43,11 @@
             font-size: 50px;
             font-weight: 700;
         }
+        .counter {
+            font-size: 14px;
+            font-style: italic;
+            color: #999999;
+        }
         p {
             font-family: 'Roboto';
             font-size: 14px;
@@ -60,7 +65,7 @@
         #map {
             width: 100%;
             max-width: 2000px;
-            height: 600px;
+            height: 450px;
             border-radius: 5;
             box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
@@ -125,10 +130,30 @@
         #toggle-button:hover {
             background-color: var(--tangerine);
         }
+
+        @media only screen and (max-width: 600px) {
+            h1 {
+            font-size: 30px;
+        }
+        .quiz-container {
+            margin: 0px 20px;
+        }
+        .flag {
+            display: none;
+        }
+        .option {
+            padding: 0px 10px;
+        }
+        .counter {
+            font-size: 14px;
+            font-style: italic;
+            color: #999999;
+        }
+        }
     </style>
 </head>
 <body>
-    <button id="toggle-button">Switch to satellite map</button>
+    <button id="toggle-button">Satellite map</button>
     <div id="map"></div>
     
     <div class="quiz-container">
@@ -155,7 +180,7 @@
                     container: 'map',
                     style: currentStyle,
                     center: [0, 0],
-                    zoom: 2,
+                    zoom: 4,
                     maxZoom: 8,
                 });
     
@@ -163,18 +188,18 @@
                 toggleButton.addEventListener('click', () => {
                     if (currentStyle === satelliteStyle) {
                         currentStyle = 'mapbox://styles/stiles/cm3uu7kq4007n01sr22gmhob6';
-                        toggleButton.textContent = 'Switch to satellite map';
+                        toggleButton.textContent = 'Satellite map';
                     } else {
                         currentStyle = satelliteStyle;
-                        toggleButton.textContent = 'Switch to default map';
+                        toggleButton.textContent = 'Default map';
                     }
                     map.setStyle(currentStyle);
                 });
     
-                let markers = []; // Array to track markers
-                let score = 0; // User's score
-                let questionCount = 0; // Current question number
-                const maxQuestions = 10; // Total number of questions
+                let markers = [];
+                let score = 0;
+                let questionCount = 0;
+                const maxQuestions = 10; 
     
                 // Get a random country, optionally filtering by exclusion or region
                 function getRandomCountry(exclude = null, region = null) {
@@ -214,7 +239,7 @@
                     const optionsEl = document.getElementById('options');
                     const answerDisplay = document.getElementById('answer-display');
     
-                    questionEl.textContent = `Which country is this? (${questionCount} of ${maxQuestions})`;
+                    questionEl.innerHTML = `Which country is this? <p class="counter">(${questionCount} of ${maxQuestions})</p>`;
                     answerDisplay.textContent = '';
     
                     const options = [correctCountry];
@@ -250,7 +275,7 @@
                             } else {
                                 answerDisplay.innerHTML = `<span class="incorrect">OOPS!</span> The country is actually <span class="highlight">${correctCountry.name}</span>.`;
                             }
-                            setTimeout(generateQuiz, 2000);
+                            setTimeout(generateQuiz, 2500);
                         });
                         optionsEl.appendChild(btn);
                     });

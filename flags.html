@@ -6,15 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Country Flags</title>
     <style>
+        :root {
+            --french-gray: #aaabbcff;
+            --battleship-gray: #8b8982ff;
+            --charcoal: #373f47ff;
+            --silver-lake-blue: #6c91c2ff;
+            --periwinkle: #c3c9e9ff;
+            /*  */
+            --pakistangreen: #143109ff;
+            --sage: #aaae7fff;
+            --beige: #d0d6b3ff;
+            --seasalt: #f7f7f7ff;
+            --antiflashwhite: #efefefff;
+            /*  */
+            --darkcyan: #588b8bff;
+            --white: #ffffffff;
+            --apricot: #ffd5c2ff;
+            --tangerine: #f28f3bff;
+            --jasper: #c8553dff;
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: var(--white);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            font-family: 'Roboto';
+            font-size: 50px;
+            font-weight: 700;
+        }
+        p {
+            font-family: 'Roboto';
+            font-size: 14px;
+            font-weight: 300;
+            color: #444;
+        }
+        .footer {
+            margin-top: 20px; 
+        }
+        .credits {
+            font-family: 'Roboto';
+            font-size: 12px;
+            color: #666; 
+        }
+        #map {
+            width: 100%;
+            max-width: 2000px;
+            height: 350px;
+            border-radius: 5;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .quiz-container {
+            text-align: center;
+        }
+        .options {
             display: flex;
             justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #f4f4f9;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .option {
+            padding: 10px 15px;
+            background-color: #e8e8e8;
+            color: white;
+            border: .5px solid #bbbbbb;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .option:hover {
+            background-color: #dddada;
+        }
+        .img {
+            height: 30px; 
+        }
+        .highlight {
+            font-weight: bold;
         }
         .grid-container {
             display: grid;
@@ -29,11 +99,11 @@
         }
         .grid-item img {
             width: 100%;
-            max-width: 100px;
+            max-width: 80px;
             height: auto;
-            border: 1px solid #ccc;
+            border: .5px solid #ccc;
             border-radius: 5px;
-            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
         }
     </style>
 </head>
