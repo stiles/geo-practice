@@ -1,4 +1,4 @@
-# Geo practice: Tools for kids learning geography
+# Geo-guessr inspired tools to help kids learning geography
 
 This repository contains a growing set of tools designed to help my daughters improve their geography skills in a fun and interactive way. Currently, the project includes a **mapping quiz** and a **flag grid**, with more features planned for the future.
 
