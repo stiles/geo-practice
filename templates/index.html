@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="static/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoGuessr Cheat Sheet</title>
+    <!-- Link to external styles -->
+    <link rel="stylesheet" href="static/style.css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css" rel="stylesheet" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <h1>GeoGuessr Cheat Sheet</h1>
+        <div class="filter-container">
+            <input type="text" id="filter-input" class="filter-input" oninput="filterCountries()" placeholder="Search countries...">
+        </div>
+    </header>
+
+    <main>
+        <div id="grid-container" class="grid-container">
+            {% for code, country in countries.items() %}
+                <a href="{{ code }}/index.html" class="grid-item" data-name="{{ country.name }}">
+                    <img src="static/flags/{{ country.code }}.png" alt="{{ country.name }} flag" class="flag">
+                    <p>{{ country.name }}</p>
+                </a>
+            {% endfor %}
+        </div>
+    </main>
+
+    <footer>
+        <div class="copyright">
+            <p>Stiles</p>
+        </div>
+    </footer>
+
+    <!-- Link to external scripts -->
+    <script src="/static/script.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script>
+</body>
+</html>

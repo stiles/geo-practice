@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="static/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoGuessr Cheat Sheet</title>
+    <!-- Link to external styles -->
+    <link rel="stylesheet" href="static/style.css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css" rel="stylesheet" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <h1>GeoGuessr Cheat Sheet</h1>
+        <div class="filter-container">
+            <input type="text" id="filter-input" class="filter-input" oninput="filterCountries()" placeholder="Search countries...">
+        </div>
+    </header>
+
+    <main>
+        <div id="grid-container" class="grid-container">
+            
+                <a href="Andorra/index.html" class="grid-item" data-name="Andorra">
+                    <img src="static/flags/ad.png" alt="Andorra flag" class="flag">
+                    <p>Andorra</p>
+                </a>
+            
+                <a href="United Arab Emirates/index.html" class="grid-item" data-name="United Arab Emirates">
+                    <img src="static/flags/ae.png" alt="United Arab Emirates flag" class="flag">
+                    <p>United Arab Emirates</p>
+                </a>
+            
+                <a href="Afghanistan/index.html" class="grid-item" data-name="Afghanistan">
+                    <img src="static/flags/af.png" alt="Afghanistan flag" class="flag">
+                    <p>Afghanistan</p>
+                </a>
+            
+                <a href="Antigua and Barbuda/index.html" class="grid-item" data-name="Antigua and Barbuda">
+                    <img src="static/flags/ag.png" alt="Antigua and Barbuda flag" class="flag">
+                    <p>Antigua and Barbuda</p>
+                </a>
+            
+                <a href="Anguilla/index.html" class="grid-item" data-name="Anguilla">
+                    <img src="static/flags/ai.png" alt="Anguilla flag" class="flag">
+                    <p>Anguilla</p>
+                </a>
+            
+                <a href="Albania/index.html" class="grid-item" data-name="Albania">
+                    <img src="static/flags/al.png" alt="Albania flag" class="flag">
+                    <p>Albania</p>
+                </a>
+            
+                <a href="Armenia/index.html" class="grid-item" data-name="Armenia">
+                    <img src="static/flags/am.png" alt="Armenia flag" class="flag">
+                    <p>Armenia</p>
+                </a>
+            
+                <a href="Angola/index.html" class="grid-item" data-name="Angola">
+                    <img src="static/flags/ao.png" alt="Angola flag" class="flag">
+                    <p>Angola</p>
+                </a>
+            
+                <a href="Antarctica/index.html" class="grid-item" data-name="Antarctica">
+                    <img src="static/flags/aq.png" alt="Antarctica flag" class="flag">
+                    <p>Antarctica</p>
+                </a>
+            
+                <a href="Argentina/index.html" class="grid-item" data-name="Argentina">
+                    <img src="static/flags/ar.png" alt="Argentina flag" class="flag">
+                    <p>Argentina</p>
+                </a>
+            
+                <a href="American Samoa/index.html" class="grid-item" data-name="American Samoa">
+                    <img src="static/flags/as.png" alt="American Samoa flag" class="flag">
+                    <p>American Samoa</p>
+                </a>
+            
+                <a href="Austria/index.html" class="grid-item" data-name="Austria">
+                    <img src="static/flags/at.png" alt="Austria flag" class="flag">
+                    <p>Austria</p>
+                </a>
+            
+                <a href="Australia/index.html" class="grid-item" data-name="Australia">
+                    <img src="static/flags/au.png" alt="Australia flag" class="flag">
+                    <p>Australia</p>
+                </a>
+            
+                <a href="Aruba/index.html" class="grid-item" data-name="Aruba">
+                    <img src="static/flags/aw.png" alt="Aruba flag" class="flag">
+                    <p>Aruba</p>
+                </a>
+            
+                <a href="Azerbaijan/index.html" class="grid-item" data-name="Azerbaijan">
+                    <img src="static/flags/az.png" alt="Azerbaijan flag" class="flag">
+                    <p>Azerbaijan</p>
+                </a>
+            
+                <a href="Bosnia and Herzegovina/index.html" class="grid-item" data-name="Bosnia and Herzegovina">
+                    <img src="static/flags/ba.png" alt="Bosnia and Herzegovina flag" class="flag">
+                    <p>Bosnia and Herzegovina</p>
+                </a>
+            
+                <a href="Barbados/index.html" class="grid-item" data-name="Barbados">
+                    <img src="static/flags/bb.png" alt="Barbados flag" class="flag">
+                    <p>Barbados</p>
+                </a>
+            
+                <a href="Bangladesh/index.html" class="grid-item" data-name="Bangladesh">
+                    <img src="static/flags/bd.png" alt="Bangladesh flag" class="flag">
+                    <p>Bangladesh</p>
+                </a>
+            
+                <a href="Belgium/index.html" class="grid-item" data-name="Belgium">
+                    <img src="static/flags/be.png" alt="Belgium flag" class="flag">
+                    <p>Belgium</p>
+                </a>
+            
+                <a href="Burkina Faso/index.html" class="grid-item" data-name="Burkina Faso">
+                    <img src="static/flags/bf.png" alt="Burkina Faso flag" class="flag">
+                    <p>Burkina Faso</p>
+                </a>
+            
+                <a href="Bulgaria/index.html" class="grid-item" data-name="Bulgaria">
+                    <img src="static/flags/bg.png" alt="Bulgaria flag" class="flag">
+                    <p>Bulgaria</p>
+                </a>
+            
+                <a href="Bahrain/index.html" class="grid-item" data-name="Bahrain">
+                    <img src="static/flags/bh.png" alt="Bahrain flag" class="flag">
+                    <p>Bahrain</p>
+                </a>
+            
+                <a href="Burundi/index.html" class="grid-item" data-name="Burundi">
+                    <img src="static/flags/bi.png" alt="Burundi flag" class="flag">
+                    <p>Burundi</p>
+                </a>
+            
+                <a href="Benin/index.html" class="grid-item" data-name="Benin">
+                    <img src="static/flags/bj.png" alt="Benin flag" class="flag">
+                    <p>Benin</p>
+                </a>
+            
+                <a href="Bermuda/index.html" class="grid-item" data-name="Bermuda">
+                    <img src="static/flags/bm.png" alt="Bermuda flag" class="flag">
+                    <p>Bermuda</p>
+                </a>
+            
+                <a href="Brunei/index.html" class="grid-item" data-name="Brunei">
+                    <img src="static/flags/bn.png" alt="Brunei flag" class="flag">
+                    <p>Brunei</p>
+                </a>
+            
+                <a href="Bolivia/index.html" class="grid-item" data-name="Bolivia">
+                    <img src="static/flags/bo.png" alt="Bolivia flag" class="flag">
+                    <p>Bolivia</p>
+                </a>
+            
+                <a href="Brazil/index.html" class="grid-item" data-name="Brazil">
+                    <img src="static/flags/br.png" alt="Brazil flag" class="flag">
+                    <p>Brazil</p>
+                </a>
+            
+                <a href="Bahamas/index.html" class="grid-item" data-name="Bahamas">
+                    <img src="static/flags/bs.png" alt="Bahamas flag" class="flag">
+                    <p>Bahamas</p>
+                </a>
+            
+                <a href="Bhutan/index.html" class="grid-item" data-name="Bhutan">
+                    <img src="static/flags/bt.png" alt="Bhutan flag" class="flag">
+                    <p>Bhutan</p>
+                </a>
+            
+                <a href="Bouvet Island/index.html" class="grid-item" data-name="Bouvet Island">
+                    <img src="static/flags/bv.png" alt="Bouvet Island flag" class="flag">
+                    <p>Bouvet Island</p>
+                </a>
+            
+                <a href="Botswana/index.html" class="grid-item" data-name="Botswana">
+                    <img src="static/flags/bw.png" alt="Botswana flag" class="flag">
+                    <p>Botswana</p>
+                </a>
+            
+                <a href="Belarus/index.html" class="grid-item" data-name="Belarus">
+                    <img src="static/flags/by.png" alt="Belarus flag" class="flag">
+                    <p>Belarus</p>
+                </a>
+            
+                <a href="Belize/index.html" class="grid-item" data-name="Belize">
+                    <img src="static/flags/bz.png" alt="Belize flag" class="flag">
+                    <p>Belize</p>
+                </a>
+            
+                <a href="Canada/index.html" class="grid-item" data-name="Canada">
+                    <img src="static/flags/ca.png" alt="Canada flag" class="flag">
+                    <p>Canada</p>
+                </a>
+            
+                <a href="Cocos (Keeling) Islands/index.html" class="grid-item" data-name="Cocos (Keeling) Islands">
+                    <img src="static/flags/cc.png" alt="Cocos (Keeling) Islands flag" class="flag">
+                    <p>Cocos (Keeling) Islands</p>
+                </a>
+            
+                <a href="DR Congo/index.html" class="grid-item" data-name="DR Congo">
+                    <img src="static/flags/cd.png" alt="DR Congo flag" class="flag">
+                    <p>DR Congo</p>
+                </a>
+            
+                <a href="Central African Republic/index.html" class="grid-item" data-name="Central African Republic">
+                    <img src="static/flags/cf.png" alt="Central African Republic flag" class="flag">
+                    <p>Central African Republic</p>
+                </a>
+            
+                <a href="Republic of the Congo/index.html" class="grid-item" data-name="Republic of the Congo">
+                    <img src="static/flags/cg.png" alt="Republic of the Congo flag" class="flag">
+                    <p>Republic of the Congo</p>
+                </a>
+            
+                <a href="Switzerland/index.html" class="grid-item" data-name="Switzerland">
+                    <img src="static/flags/ch.png" alt="Switzerland flag" class="flag">
+                    <p>Switzerland</p>
+                </a>
+            
+                <a href="Côte d'Ivoire (Ivory Coast)/index.html" class="grid-item" data-name="Côte d'Ivoire (Ivory Coast)">
+                    <img src="static/flags/ci.png" alt="Côte d'Ivoire (Ivory Coast) flag" class="flag">
+                    <p>Côte d'Ivoire (Ivory Coast)</p>
+                </a>
+            
+                <a href="Cook Islands/index.html" class="grid-item" data-name="Cook Islands">
+                    <img src="static/flags/ck.png" alt="Cook Islands flag" class="flag">
+                    <p>Cook Islands</p>
+                </a>
+            
+                <a href="Chile/index.html" class="grid-item" data-name="Chile">
+                    <img src="static/flags/cl.png" alt="Chile flag" class="flag">
+                    <p>Chile</p>
+                </a>
+            
+                <a href="Cameroon/index.html" class="grid-item" data-name="Cameroon">
+                    <img src="static/flags/cm.png" alt="Cameroon flag" class="flag">
+                    <p>Cameroon</p>
+                </a>
+            
+                <a href="China/index.html" class="grid-item" data-name="China">
+                    <img src="static/flags/cn.png" alt="China flag" class="flag">
+                    <p>China</p>
+                </a>
+            
+                <a href="Colombia/index.html" class="grid-item" data-name="Colombia">
+                    <img src="static/flags/co.png" alt="Colombia flag" class="flag">
+                    <p>Colombia</p>
+                </a>
+            
+                <a href="Costa Rica/index.html" class="grid-item" data-name="Costa Rica">
+                    <img src="static/flags/cr.png" alt="Costa Rica flag" class="flag">
+                    <p>Costa Rica</p>
+                </a>
+            
+                <a href="Cuba/index.html" class="grid-item" data-name="Cuba">
+                    <img src="static/flags/cu.png" alt="Cuba flag" class="flag">
+                    <p>Cuba</p>
+                </a>
+            
+                <a href="Cape Verde/index.html" class="grid-item" data-name="Cape Verde">
+                    <img src="static/flags/cv.png" alt="Cape Verde flag" class="flag">
+                    <p>Cape Verde</p>
+                </a>
+            
+                <a href="Christmas Island/index.html" class="grid-item" data-name="Christmas Island">
+                    <img src="static/flags/cx.png" alt="Christmas Island flag" class="flag">
+                    <p>Christmas Island</p>
+                </a>
+            
+                <a href="Cyprus/index.html" class="grid-item" data-name="Cyprus">
+                    <img src="static/flags/cy.png" alt="Cyprus flag" class="flag">
+                    <p>Cyprus</p>
+                </a>
+            
+                <a href="Czechia/index.html" class="grid-item" data-name="Czechia">
+                    <img src="static/flags/cz.png" alt="Czechia flag" class="flag">
+                    <p>Czechia</p>
+                </a>
+            
+                <a href="Germany/index.html" class="grid-item" data-name="Germany">
+                    <img src="static/flags/de.png" alt="Germany flag" class="flag">
+                    <p>Germany</p>
+                </a>
+            
+                <a href="Djibouti/index.html" class="grid-item" data-name="Djibouti">
+                    <img src="static/flags/dj.png" alt="Djibouti flag" class="flag">
+                    <p>Djibouti</p>
+                </a>
+            
+                <a href="Denmark/index.html" class="grid-item" data-name="Denmark">
+                    <img src="static/flags/dk.png" alt="Denmark flag" class="flag">
+                    <p>Denmark</p>
+                </a>
+            
+                <a href="Dominica/index.html" class="grid-item" data-name="Dominica">
+                    <img src="static/flags/dm.png" alt="Dominica flag" class="flag">
+                    <p>Dominica</p>
+                </a>
+            
+                <a href="Dominican Republic/index.html" class="grid-item" data-name="Dominican Republic">
+                    <img src="static/flags/do.png" alt="Dominican Republic flag" class="flag">
+                    <p>Dominican Republic</p>
+                </a>
+            
+                <a href="Algeria/index.html" class="grid-item" data-name="Algeria">
+                    <img src="static/flags/dz.png" alt="Algeria flag" class="flag">
+                    <p>Algeria</p>
+                </a>
+            
+                <a href="Ecuador/index.html" class="grid-item" data-name="Ecuador">
+                    <img src="static/flags/ec.png" alt="Ecuador flag" class="flag">
+                    <p>Ecuador</p>
+                </a>
+            
+                <a href="Estonia/index.html" class="grid-item" data-name="Estonia">
+                    <img src="static/flags/ee.png" alt="Estonia flag" class="flag">
+                    <p>Estonia</p>
+                </a>
+            
+                <a href="Egypt/index.html" class="grid-item" data-name="Egypt">
+                    <img src="static/flags/eg.png" alt="Egypt flag" class="flag">
+                    <p>Egypt</p>
+                </a>
+            
+                <a href="Western Sahara/index.html" class="grid-item" data-name="Western Sahara">
+                    <img src="static/flags/eh.png" alt="Western Sahara flag" class="flag">
+                    <p>Western Sahara</p>
+                </a>
+            
+                <a href="Eritrea/index.html" class="grid-item" data-name="Eritrea">
+                    <img src="static/flags/er.png" alt="Eritrea flag" class="flag">
+                    <p>Eritrea</p>
+                </a>
+            
+                <a href="Spain/index.html" class="grid-item" data-name="Spain">
+                    <img src="static/flags/es.png" alt="Spain flag" class="flag">
+                    <p>Spain</p>
+                </a>
+            
+                <a href="Ethiopia/index.html" class="grid-item" data-name="Ethiopia">
+                    <img src="static/flags/et.png" alt="Ethiopia flag" class="flag">
+                    <p>Ethiopia</p>
+                </a>
+            
+                <a href="Finland/index.html" class="grid-item" data-name="Finland">
+                    <img src="static/flags/fi.png" alt="Finland flag" class="flag">
+                    <p>Finland</p>
+                </a>
+            
+                <a href="Fiji/index.html" class="grid-item" data-name="Fiji">
+                    <img src="static/flags/fj.png" alt="Fiji flag" class="flag">
+                    <p>Fiji</p>
+                </a>
+            
+                <a href="Falkland Islands/index.html" class="grid-item" data-name="Falkland Islands">
+                    <img src="static/flags/fk.png" alt="Falkland Islands flag" class="flag">
+                    <p>Falkland Islands</p>
+                </a>
+            
+                <a href="Micronesia/index.html" class="grid-item" data-name="Micronesia">
+                    <img src="static/flags/fm.png" alt="Micronesia flag" class="flag">
+                    <p>Micronesia</p>
+                </a>
+            
+                <a href="Faroe Islands/index.html" class="grid-item" data-name="Faroe Islands">
+                    <img src="static/flags/fo.png" alt="Faroe Islands flag" class="flag">
+                    <p>Faroe Islands</p>
+                </a>
+            
+                <a href="France/index.html" class="grid-item" data-name="France">
+                    <img src="static/flags/fr.png" alt="France flag" class="flag">
+                    <p>France</p>
+                </a>
+            
+                <a href="Gabon/index.html" class="grid-item" data-name="Gabon">
+                    <img src="static/flags/ga.png" alt="Gabon flag" class="flag">
+                    <p>Gabon</p>
+                </a>
+            
+                <a href="United Kingdom/index.html" class="grid-item" data-name="United Kingdom">
+                    <img src="static/flags/gb.png" alt="United Kingdom flag" class="flag">
+                    <p>United Kingdom</p>
+                </a>
+            
+                <a href="Grenada/index.html" class="grid-item" data-name="Grenada">
+                    <img src="static/flags/gd.png" alt="Grenada flag" class="flag">
+                    <p>Grenada</p>
+                </a>
+            
+                <a href="Georgia/index.html" class="grid-item" data-name="Georgia">
+                    <img src="static/flags/ge.png" alt="Georgia flag" class="flag">
+                    <p>Georgia</p>
+                </a>
+            
+                <a href="French Guiana/index.html" class="grid-item" data-name="French Guiana">
+                    <img src="static/flags/gf.png" alt="French Guiana flag" class="flag">
+                    <p>French Guiana</p>
+                </a>
+            
+                <a href="Guernsey/index.html" class="grid-item" data-name="Guernsey">
+                    <img src="static/flags/gg.png" alt="Guernsey flag" class="flag">
+                    <p>Guernsey</p>
+                </a>
+            
+                <a href="Ghana/index.html" class="grid-item" data-name="Ghana">
+                    <img src="static/flags/gh.png" alt="Ghana flag" class="flag">
+                    <p>Ghana</p>
+                </a>
+            
+                <a href="Gibraltar/index.html" class="grid-item" data-name="Gibraltar">
+                    <img src="static/flags/gi.png" alt="Gibraltar flag" class="flag">
+                    <p>Gibraltar</p>
+                </a>
+            
+                <a href="Greenland/index.html" class="grid-item" data-name="Greenland">
+                    <img src="static/flags/gl.png" alt="Greenland flag" class="flag">
+                    <p>Greenland</p>
+                </a>
+            
+                <a href="Gambia/index.html" class="grid-item" data-name="Gambia">
+                    <img src="static/flags/gm.png" alt="Gambia flag" class="flag">
+                    <p>Gambia</p>
+                </a>
+            
+                <a href="Guinea/index.html" class="grid-item" data-name="Guinea">
+                    <img src="static/flags/gn.png" alt="Guinea flag" class="flag">
+                    <p>Guinea</p>
+                </a>
+            
+                <a href="Guadeloupe/index.html" class="grid-item" data-name="Guadeloupe">
+                    <img src="static/flags/gp.png" alt="Guadeloupe flag" class="flag">
+                    <p>Guadeloupe</p>
+                </a>
+            
+                <a href="Equatorial Guinea/index.html" class="grid-item" data-name="Equatorial Guinea">
+                    <img src="static/flags/gq.png" alt="Equatorial Guinea flag" class="flag">
+                    <p>Equatorial Guinea</p>
+                </a>
+            
+                <a href="Greece/index.html" class="grid-item" data-name="Greece">
+                    <img src="static/flags/gr.png" alt="Greece flag" class="flag">
+                    <p>Greece</p>
+                </a>
+            
+                <a href="South Georgia/index.html" class="grid-item" data-name="South Georgia">
+                    <img src="static/flags/gs.png" alt="South Georgia flag" class="flag">
+                    <p>South Georgia</p>
+                </a>
+            
+                <a href="Guatemala/index.html" class="grid-item" data-name="Guatemala">
+                    <img src="static/flags/gt.png" alt="Guatemala flag" class="flag">
+                    <p>Guatemala</p>
+                </a>
+            
+                <a href="Guam/index.html" class="grid-item" data-name="Guam">
+                    <img src="static/flags/gu.png" alt="Guam flag" class="flag">
+                    <p>Guam</p>
+                </a>
+            
+                <a href="Guinea-Bissau/index.html" class="grid-item" data-name="Guinea-Bissau">
+                    <img src="static/flags/gw.png" alt="Guinea-Bissau flag" class="flag">
+                    <p>Guinea-Bissau</p>
+                </a>
+            
+                <a href="Guyana/index.html" class="grid-item" data-name="Guyana">
+                    <img src="static/flags/gy.png" alt="Guyana flag" class="flag">
+                    <p>Guyana</p>
+                </a>
+            
+                <a href="Hong Kong/index.html" class="grid-item" data-name="Hong Kong">
+                    <img src="static/flags/hk.png" alt="Hong Kong flag" class="flag">
+                    <p>Hong Kong</p>
+                </a>
+            
+                <a href="Heard Island/McDonald Islands/index.html" class="grid-item" data-name="Heard Island/McDonald Islands">
+                    <img src="static/flags/hm.png" alt="Heard Island/McDonald Islands flag" class="flag">
+                    <p>Heard Island/McDonald Islands</p>
+                </a>
+            
+                <a href="Honduras/index.html" class="grid-item" data-name="Honduras">
+                    <img src="static/flags/hn.png" alt="Honduras flag" class="flag">
+                    <p>Honduras</p>
+                </a>
+            
+                <a href="Croatia/index.html" class="grid-item" data-name="Croatia">
+                    <img src="static/flags/hr.png" alt="Croatia flag" class="flag">
+                    <p>Croatia</p>
+                </a>
+            
+                <a href="Haiti/index.html" class="grid-item" data-name="Haiti">
+                    <img src="static/flags/ht.png" alt="Haiti flag" class="flag">
+                    <p>Haiti</p>
+                </a>
+            
+                <a href="Hungary/index.html" class="grid-item" data-name="Hungary">
+                    <img src="static/flags/hu.png" alt="Hungary flag" class="flag">
+                    <p>Hungary</p>
+                </a>
+            
+                <a href="Indonesia/index.html" class="grid-item" data-name="Indonesia">
+                    <img src="static/flags/id.png" alt="Indonesia flag" class="flag">
+                    <p>Indonesia</p>
+                </a>
+            
+                <a href="Ireland/index.html" class="grid-item" data-name="Ireland">
+                    <img src="static/flags/ie.png" alt="Ireland flag" class="flag">
+                    <p>Ireland</p>
+                </a>
+            
+                <a href="Israel/index.html" class="grid-item" data-name="Israel">
+                    <img src="static/flags/il.png" alt="Israel flag" class="flag">
+                    <p>Israel</p>
+                </a>
+            
+                <a href="Isle of Man/index.html" class="grid-item" data-name="Isle of Man">
+                    <img src="static/flags/im.png" alt="Isle of Man flag" class="flag">
+                    <p>Isle of Man</p>
+                </a>
+            
+                <a href="India/index.html" class="grid-item" data-name="India">
+                    <img src="static/flags/in.png" alt="India flag" class="flag">
+                    <p>India</p>
+                </a>
+            
+                <a href="British Indian Ocean Territory/index.html" class="grid-item" data-name="British Indian Ocean Territory">
+                    <img src="static/flags/io.png" alt="British Indian Ocean Territory flag" class="flag">
+                    <p>British Indian Ocean Territory</p>
+                </a>
+            
+                <a href="Iraq/index.html" class="grid-item" data-name="Iraq">
+                    <img src="static/flags/iq.png" alt="Iraq flag" class="flag">
+                    <p>Iraq</p>
+                </a>
+            
+                <a href="Iran/index.html" class="grid-item" data-name="Iran">
+                    <img src="static/flags/ir.png" alt="Iran flag" class="flag">
+                    <p>Iran</p>
+                </a>
+            
+                <a href="Iceland/index.html" class="grid-item" data-name="Iceland">
+                    <img src="static/flags/is.png" alt="Iceland flag" class="flag">
+                    <p>Iceland</p>
+                </a>
+            
+                <a href="Italy/index.html" class="grid-item" data-name="Italy">
+                    <img src="static/flags/it.png" alt="Italy flag" class="flag">
+                    <p>Italy</p>
+                </a>
+            
+                <a href="Jersey/index.html" class="grid-item" data-name="Jersey">
+                    <img src="static/flags/je.png" alt="Jersey flag" class="flag">
+                    <p>Jersey</p>
+                </a>
+            
+                <a href="Jamaica/index.html" class="grid-item" data-name="Jamaica">
+                    <img src="static/flags/jm.png" alt="Jamaica flag" class="flag">
+                    <p>Jamaica</p>
+                </a>
+            
+                <a href="Jordan/index.html" class="grid-item" data-name="Jordan">
+                    <img src="static/flags/jo.png" alt="Jordan flag" class="flag">
+                    <p>Jordan</p>
+                </a>
+            
+                <a href="Japan/index.html" class="grid-item" data-name="Japan">
+                    <img src="static/flags/jp.png" alt="Japan flag" class="flag">
+                    <p>Japan</p>
+                </a>
+            
+                <a href="Kenya/index.html" class="grid-item" data-name="Kenya">
+                    <img src="static/flags/ke.png" alt="Kenya flag" class="flag">
+                    <p>Kenya</p>
+                </a>
+            
+                <a href="Kyrgyzstan/index.html" class="grid-item" data-name="Kyrgyzstan">
+                    <img src="static/flags/kg.png" alt="Kyrgyzstan flag" class="flag">
+                    <p>Kyrgyzstan</p>
+                </a>
+            
+                <a href="Cambodia/index.html" class="grid-item" data-name="Cambodia">
+                    <img src="static/flags/kh.png" alt="Cambodia flag" class="flag">
+                    <p>Cambodia</p>
+                </a>
+            
+                <a href="Kiribati/index.html" class="grid-item" data-name="Kiribati">
+                    <img src="static/flags/ki.png" alt="Kiribati flag" class="flag">
+                    <p>Kiribati</p>
+                </a>
+            
+                <a href="Comoros/index.html" class="grid-item" data-name="Comoros">
+                    <img src="static/flags/km.png" alt="Comoros flag" class="flag">
+                    <p>Comoros</p>
+                </a>
+            
+                <a href="Saint Kitts and Nevis/index.html" class="grid-item" data-name="Saint Kitts and Nevis">
+                    <img src="static/flags/kn.png" alt="Saint Kitts and Nevis flag" class="flag">
+                    <p>Saint Kitts and Nevis</p>
+                </a>
+            
+                <a href="North Korea/index.html" class="grid-item" data-name="North Korea">
+                    <img src="static/flags/kp.png" alt="North Korea flag" class="flag">
+                    <p>North Korea</p>
+                </a>
+            
+                <a href="South Korea/index.html" class="grid-item" data-name="South Korea">
+                    <img src="static/flags/kr.png" alt="South Korea flag" class="flag">
+                    <p>South Korea</p>
+                </a>
+            
+                <a href="Kuwait/index.html" class="grid-item" data-name="Kuwait">
+                    <img src="static/flags/kw.png" alt="Kuwait flag" class="flag">
+                    <p>Kuwait</p>
+                </a>
+            
+                <a href="Cayman Islands/index.html" class="grid-item" data-name="Cayman Islands">
+                    <img src="static/flags/ky.png" alt="Cayman Islands flag" class="flag">
+                    <p>Cayman Islands</p>
+                </a>
+            
+                <a href="Kazakhstan/index.html" class="grid-item" data-name="Kazakhstan">
+                    <img src="static/flags/kz.png" alt="Kazakhstan flag" class="flag">
+                    <p>Kazakhstan</p>
+                </a>
+            
+                <a href="Laos/index.html" class="grid-item" data-name="Laos">
+                    <img src="static/flags/la.png" alt="Laos flag" class="flag">
+                    <p>Laos</p>
+                </a>
+            
+                <a href="Lebanon/index.html" class="grid-item" data-name="Lebanon">
+                    <img src="static/flags/lb.png" alt="Lebanon flag" class="flag">
+                    <p>Lebanon</p>
+                </a>
+            
+                <a href="Saint Lucia/index.html" class="grid-item" data-name="Saint Lucia">
+                    <img src="static/flags/lc.png" alt="Saint Lucia flag" class="flag">
+                    <p>Saint Lucia</p>
+                </a>
+            
+                <a href="Liechtenstein/index.html" class="grid-item" data-name="Liechtenstein">
+                    <img src="static/flags/li.png" alt="Liechtenstein flag" class="flag">
+                    <p>Liechtenstein</p>
+                </a>
+            
+                <a href="Sri Lanka/index.html" class="grid-item" data-name="Sri Lanka">
+                    <img src="static/flags/lk.png" alt="Sri Lanka flag" class="flag">
+                    <p>Sri Lanka</p>
+                </a>
+            
+                <a href="Liberia/index.html" class="grid-item" data-name="Liberia">
+                    <img src="static/flags/lr.png" alt="Liberia flag" class="flag">
+                    <p>Liberia</p>
+                </a>
+            
+                <a href="Lesotho/index.html" class="grid-item" data-name="Lesotho">
+                    <img src="static/flags/ls.png" alt="Lesotho flag" class="flag">
+                    <p>Lesotho</p>
+                </a>
+            
+                <a href="Lithuania/index.html" class="grid-item" data-name="Lithuania">
+                    <img src="static/flags/lt.png" alt="Lithuania flag" class="flag">
+                    <p>Lithuania</p>
+                </a>
+            
+                <a href="Luxembourg/index.html" class="grid-item" data-name="Luxembourg">
+                    <img src="static/flags/lu.png" alt="Luxembourg flag" class="flag">
+                    <p>Luxembourg</p>
+                </a>
+            
+                <a href="Latvia/index.html" class="grid-item" data-name="Latvia">
+                    <img src="static/flags/lv.png" alt="Latvia flag" class="flag">
+                    <p>Latvia</p>
+                </a>
+            
+                <a href="Libya/index.html" class="grid-item" data-name="Libya">
+                    <img src="static/flags/ly.png" alt="Libya flag" class="flag">
+                    <p>Libya</p>
+                </a>
+            
+                <a href="Morocco/index.html" class="grid-item" data-name="Morocco">
+                    <img src="static/flags/ma.png" alt="Morocco flag" class="flag">
+                    <p>Morocco</p>
+                </a>
+            
+                <a href="Monaco/index.html" class="grid-item" data-name="Monaco">
+                    <img src="static/flags/mc.png" alt="Monaco flag" class="flag">
+                    <p>Monaco</p>
+                </a>
+            
+                <a href="Moldova/index.html" class="grid-item" data-name="Moldova">
+                    <img src="static/flags/md.png" alt="Moldova flag" class="flag">
+                    <p>Moldova</p>
+                </a>
+            
+                <a href="Montenegro/index.html" class="grid-item" data-name="Montenegro">
+                    <img src="static/flags/me.png" alt="Montenegro flag" class="flag">
+                    <p>Montenegro</p>
+                </a>
+            
+                <a href="Madagascar/index.html" class="grid-item" data-name="Madagascar">
+                    <img src="static/flags/mg.png" alt="Madagascar flag" class="flag">
+                    <p>Madagascar</p>
+                </a>
+            
+                <a href="Marshall Islands/index.html" class="grid-item" data-name="Marshall Islands">
+                    <img src="static/flags/mh.png" alt="Marshall Islands flag" class="flag">
+                    <p>Marshall Islands</p>
+                </a>
+            
+                <a href="North Macedonia/index.html" class="grid-item" data-name="North Macedonia">
+                    <img src="static/flags/mk.png" alt="North Macedonia flag" class="flag">
+                    <p>North Macedonia</p>
+                </a>
+            
+                <a href="Mali/index.html" class="grid-item" data-name="Mali">
+                    <img src="static/flags/ml.png" alt="Mali flag" class="flag">
+                    <p>Mali</p>
+                </a>
+            
+                <a href="Myanmar/index.html" class="grid-item" data-name="Myanmar">
+                    <img src="static/flags/mm.png" alt="Myanmar flag" class="flag">
+                    <p>Myanmar</p>
+                </a>
+            
+                <a href="Mongolia/index.html" class="grid-item" data-name="Mongolia">
+                    <img src="static/flags/mn.png" alt="Mongolia flag" class="flag">
+                    <p>Mongolia</p>
+                </a>
+            
+                <a href="Macau/index.html" class="grid-item" data-name="Macau">
+                    <img src="static/flags/mo.png" alt="Macau flag" class="flag">
+                    <p>Macau</p>
+                </a>
+            
+                <a href="Northern Mariana Islands/index.html" class="grid-item" data-name="Northern Mariana Islands">
+                    <img src="static/flags/mp.png" alt="Northern Mariana Islands flag" class="flag">
+                    <p>Northern Mariana Islands</p>
+                </a>
+            
+                <a href="Martinique/index.html" class="grid-item" data-name="Martinique">
+                    <img src="static/flags/mq.png" alt="Martinique flag" class="flag">
+                    <p>Martinique</p>
+                </a>
+            
+                <a href="Mauritania/index.html" class="grid-item" data-name="Mauritania">
+                    <img src="static/flags/mr.png" alt="Mauritania flag" class="flag">
+                    <p>Mauritania</p>
+                </a>
+            
+                <a href="Montserrat/index.html" class="grid-item" data-name="Montserrat">
+                    <img src="static/flags/ms.png" alt="Montserrat flag" class="flag">
+                    <p>Montserrat</p>
+                </a>
+            
+                <a href="Malta/index.html" class="grid-item" data-name="Malta">
+                    <img src="static/flags/mt.png" alt="Malta flag" class="flag">
+                    <p>Malta</p>
+                </a>
+            
+                <a href="Mauritius/index.html" class="grid-item" data-name="Mauritius">
+                    <img src="static/flags/mu.png" alt="Mauritius flag" class="flag">
+                    <p>Mauritius</p>
+                </a>
+            
+                <a href="Maldives/index.html" class="grid-item" data-name="Maldives">
+                    <img src="static/flags/mv.png" alt="Maldives flag" class="flag">
+                    <p>Maldives</p>
+                </a>
+            
+                <a href="Malawi/index.html" class="grid-item" data-name="Malawi">
+                    <img src="static/flags/mw.png" alt="Malawi flag" class="flag">
+                    <p>Malawi</p>
+                </a>
+            
+                <a href="Mexico/index.html" class="grid-item" data-name="Mexico">
+                    <img src="static/flags/mx.png" alt="Mexico flag" class="flag">
+                    <p>Mexico</p>
+                </a>
+            
+                <a href="Malaysia/index.html" class="grid-item" data-name="Malaysia">
+                    <img src="static/flags/my.png" alt="Malaysia flag" class="flag">
+                    <p>Malaysia</p>
+                </a>
+            
+                <a href="Mozambique/index.html" class="grid-item" data-name="Mozambique">
+                    <img src="static/flags/mz.png" alt="Mozambique flag" class="flag">
+                    <p>Mozambique</p>
+                </a>
+            
+                <a href="Namibia/index.html" class="grid-item" data-name="Namibia">
+                    <img src="static/flags/na.png" alt="Namibia flag" class="flag">
+                    <p>Namibia</p>
+                </a>
+            
+                <a href="New Caledonia/index.html" class="grid-item" data-name="New Caledonia">
+                    <img src="static/flags/nc.png" alt="New Caledonia flag" class="flag">
+                    <p>New Caledonia</p>
+                </a>
+            
+                <a href="Niger/index.html" class="grid-item" data-name="Niger">
+                    <img src="static/flags/ne.png" alt="Niger flag" class="flag">
+                    <p>Niger</p>
+                </a>
+            
+                <a href="Norfolk Island/index.html" class="grid-item" data-name="Norfolk Island">
+                    <img src="static/flags/nf.png" alt="Norfolk Island flag" class="flag">
+                    <p>Norfolk Island</p>
+                </a>
+            
+                <a href="Nigeria/index.html" class="grid-item" data-name="Nigeria">
+                    <img src="static/flags/ng.png" alt="Nigeria flag" class="flag">
+                    <p>Nigeria</p>
+                </a>
+            
+                <a href="Nicaragua/index.html" class="grid-item" data-name="Nicaragua">
+                    <img src="static/flags/ni.png" alt="Nicaragua flag" class="flag">
+                    <p>Nicaragua</p>
+                </a>
+            
+                <a href="Netherlands/index.html" class="grid-item" data-name="Netherlands">
+                    <img src="static/flags/nl.png" alt="Netherlands flag" class="flag">
+                    <p>Netherlands</p>
+                </a>
+            
+                <a href="Norway/index.html" class="grid-item" data-name="Norway">
+                    <img src="static/flags/no.png" alt="Norway flag" class="flag">
+                    <p>Norway</p>
+                </a>
+            
+                <a href="Nepal/index.html" class="grid-item" data-name="Nepal">
+                    <img src="static/flags/np.png" alt="Nepal flag" class="flag">
+                    <p>Nepal</p>
+                </a>
+            
+                <a href="Nauru/index.html" class="grid-item" data-name="Nauru">
+                    <img src="static/flags/nr.png" alt="Nauru flag" class="flag">
+                    <p>Nauru</p>
+                </a>
+            
+                <a href="Niue/index.html" class="grid-item" data-name="Niue">
+                    <img src="static/flags/nu.png" alt="Niue flag" class="flag">
+                    <p>Niue</p>
+                </a>
+            
+                <a href="New Zealand/index.html" class="grid-item" data-name="New Zealand">
+                    <img src="static/flags/nz.png" alt="New Zealand flag" class="flag">
+                    <p>New Zealand</p>
+                </a>
+            
+                <a href="Oman/index.html" class="grid-item" data-name="Oman">
+                    <img src="static/flags/om.png" alt="Oman flag" class="flag">
+                    <p>Oman</p>
+                </a>
+            
+                <a href="Panama/index.html" class="grid-item" data-name="Panama">
+                    <img src="static/flags/pa.png" alt="Panama flag" class="flag">
+                    <p>Panama</p>
+                </a>
+            
+                <a href="Peru/index.html" class="grid-item" data-name="Peru">
+                    <img src="static/flags/pe.png" alt="Peru flag" class="flag">
+                    <p>Peru</p>
+                </a>
+            
+                <a href="French Polynesia/index.html" class="grid-item" data-name="French Polynesia">
+                    <img src="static/flags/pf.png" alt="French Polynesia flag" class="flag">
+                    <p>French Polynesia</p>
+                </a>
+            
+                <a href="Papua New Guinea/index.html" class="grid-item" data-name="Papua New Guinea">
+                    <img src="static/flags/pg.png" alt="Papua New Guinea flag" class="flag">
+                    <p>Papua New Guinea</p>
+                </a>
+            
+                <a href="Philippines/index.html" class="grid-item" data-name="Philippines">
+                    <img src="static/flags/ph.png" alt="Philippines flag" class="flag">
+                    <p>Philippines</p>
+                </a>
+            
+                <a href="Pakistan/index.html" class="grid-item" data-name="Pakistan">
+                    <img src="static/flags/pk.png" alt="Pakistan flag" class="flag">
+                    <p>Pakistan</p>
+                </a>
+            
+                <a href="Poland/index.html" class="grid-item" data-name="Poland">
+                    <img src="static/flags/pl.png" alt="Poland flag" class="flag">
+                    <p>Poland</p>
+                </a>
+            
+                <a href="Saint Pierre and Miquelon/index.html" class="grid-item" data-name="Saint Pierre and Miquelon">
+                    <img src="static/flags/pm.png" alt="Saint Pierre and Miquelon flag" class="flag">
+                    <p>Saint Pierre and Miquelon</p>
+                </a>
+            
+                <a href="Pitcairn Islands/index.html" class="grid-item" data-name="Pitcairn Islands">
+                    <img src="static/flags/pn.png" alt="Pitcairn Islands flag" class="flag">
+                    <p>Pitcairn Islands</p>
+                </a>
+            
+                <a href="Puerto Rico/index.html" class="grid-item" data-name="Puerto Rico">
+                    <img src="static/flags/pr.png" alt="Puerto Rico flag" class="flag">
+                    <p>Puerto Rico</p>
+                </a>
+            
+                <a href="Palestine/index.html" class="grid-item" data-name="Palestine">
+                    <img src="static/flags/ps.png" alt="Palestine flag" class="flag">
+                    <p>Palestine</p>
+                </a>
+            
+                <a href="Portugal/index.html" class="grid-item" data-name="Portugal">
+                    <img src="static/flags/pt.png" alt="Portugal flag" class="flag">
+                    <p>Portugal</p>
+                </a>
+            
+                <a href="Palau/index.html" class="grid-item" data-name="Palau">
+                    <img src="static/flags/pw.png" alt="Palau flag" class="flag">
+                    <p>Palau</p>
+                </a>
+            
+                <a href="Paraguay/index.html" class="grid-item" data-name="Paraguay">
+                    <img src="static/flags/py.png" alt="Paraguay flag" class="flag">
+                    <p>Paraguay</p>
+                </a>
+            
+                <a href="Qatar/index.html" class="grid-item" data-name="Qatar">
+                    <img src="static/flags/qa.png" alt="Qatar flag" class="flag">
+                    <p>Qatar</p>
+                </a>
+            
+                <a href="Réunion/index.html" class="grid-item" data-name="Réunion">
+                    <img src="static/flags/re.png" alt="Réunion flag" class="flag">
+                    <p>Réunion</p>
+                </a>
+            
+                <a href="Romania/index.html" class="grid-item" data-name="Romania">
+                    <img src="static/flags/ro.png" alt="Romania flag" class="flag">
+                    <p>Romania</p>
+                </a>
+            
+                <a href="Serbia/index.html" class="grid-item" data-name="Serbia">
+                    <img src="static/flags/rs.png" alt="Serbia flag" class="flag">
+                    <p>Serbia</p>
+                </a>
+            
+                <a href="Russia/index.html" class="grid-item" data-name="Russia">
+                    <img src="static/flags/ru.png" alt="Russia flag" class="flag">
+                    <p>Russia</p>
+                </a>
+            
+                <a href="Rwanda/index.html" class="grid-item" data-name="Rwanda">
+                    <img src="static/flags/rw.png" alt="Rwanda flag" class="flag">
+                    <p>Rwanda</p>
+                </a>
+            
+                <a href="Saudi Arabia/index.html" class="grid-item" data-name="Saudi Arabia">
+                    <img src="static/flags/sa.png" alt="Saudi Arabia flag" class="flag">
+                    <p>Saudi Arabia</p>
+                </a>
+            
+                <a href="Solomon Islands/index.html" class="grid-item" data-name="Solomon Islands">
+                    <img src="static/flags/sb.png" alt="Solomon Islands flag" class="flag">
+                    <p>Solomon Islands</p>
+                </a>
+            
+                <a href="Seychelles/index.html" class="grid-item" data-name="Seychelles">
+                    <img src="static/flags/sc.png" alt="Seychelles flag" class="flag">
+                    <p>Seychelles</p>
+                </a>
+            
+                <a href="Sudan/index.html" class="grid-item" data-name="Sudan">
+                    <img src="static/flags/sd.png" alt="Sudan flag" class="flag">
+                    <p>Sudan</p>
+                </a>
+            
+                <a href="Sweden/index.html" class="grid-item" data-name="Sweden">
+                    <img src="static/flags/se.png" alt="Sweden flag" class="flag">
+                    <p>Sweden</p>
+                </a>
+            
+                <a href="Singapore/index.html" class="grid-item" data-name="Singapore">
+                    <img src="static/flags/sg.png" alt="Singapore flag" class="flag">
+                    <p>Singapore</p>
+                </a>
+            
+                <a href="Saint Helena, Ascension and Tristan da Cunha/index.html" class="grid-item" data-name="Saint Helena, Ascension and Tristan da Cunha">
+                    <img src="static/flags/sh.png" alt="Saint Helena, Ascension and Tristan da Cunha flag" class="flag">
+                    <p>Saint Helena, Ascension and Tristan da Cunha</p>
+                </a>
+            
+                <a href="Slovenia/index.html" class="grid-item" data-name="Slovenia">
+                    <img src="static/flags/si.png" alt="Slovenia flag" class="flag">
+                    <p>Slovenia</p>
+                </a>
+            
+                <a href="Svalbard and Jan Mayen/index.html" class="grid-item" data-name="Svalbard and Jan Mayen">
+                    <img src="static/flags/sj.png" alt="Svalbard and Jan Mayen flag" class="flag">
+                    <p>Svalbard and Jan Mayen</p>
+                </a>
+            
+                <a href="Slovakia/index.html" class="grid-item" data-name="Slovakia">
+                    <img src="static/flags/sk.png" alt="Slovakia flag" class="flag">
+                    <p>Slovakia</p>
+                </a>
+            
+                <a href="Sierra Leone/index.html" class="grid-item" data-name="Sierra Leone">
+                    <img src="static/flags/sl.png" alt="Sierra Leone flag" class="flag">
+                    <p>Sierra Leone</p>
+                </a>
+            
+                <a href="San Marino/index.html" class="grid-item" data-name="San Marino">
+                    <img src="static/flags/sm.png" alt="San Marino flag" class="flag">
+                    <p>San Marino</p>
+                </a>
+            
+                <a href="Senegal/index.html" class="grid-item" data-name="Senegal">
+                    <img src="static/flags/sn.png" alt="Senegal flag" class="flag">
+                    <p>Senegal</p>
+                </a>
+            
+                <a href="Somalia/index.html" class="grid-item" data-name="Somalia">
+                    <img src="static/flags/so.png" alt="Somalia flag" class="flag">
+                    <p>Somalia</p>
+                </a>
+            
+                <a href="Suriname/index.html" class="grid-item" data-name="Suriname">
+                    <img src="static/flags/sr.png" alt="Suriname flag" class="flag">
+                    <p>Suriname</p>
+                </a>
+            
+                <a href="São Tomé and Príncipe/index.html" class="grid-item" data-name="São Tomé and Príncipe">
+                    <img src="static/flags/st.png" alt="São Tomé and Príncipe flag" class="flag">
+                    <p>São Tomé and Príncipe</p>
+                </a>
+            
+                <a href="El Salvador/index.html" class="grid-item" data-name="El Salvador">
+                    <img src="static/flags/sv.png" alt="El Salvador flag" class="flag">
+                    <p>El Salvador</p>
+                </a>
+            
+                <a href="Syria/index.html" class="grid-item" data-name="Syria">
+                    <img src="static/flags/sy.png" alt="Syria flag" class="flag">
+                    <p>Syria</p>
+                </a>
+            
+                <a href="Eswatini (Swaziland)/index.html" class="grid-item" data-name="Eswatini (Swaziland)">
+                    <img src="static/flags/sz.png" alt="Eswatini (Swaziland) flag" class="flag">
+                    <p>Eswatini (Swaziland)</p>
+                </a>
+            
+                <a href="Turks and Caicos Islands/index.html" class="grid-item" data-name="Turks and Caicos Islands">
+                    <img src="static/flags/tc.png" alt="Turks and Caicos Islands flag" class="flag">
+                    <p>Turks and Caicos Islands</p>
+                </a>
+            
+                <a href="Chad/index.html" class="grid-item" data-name="Chad">
+                    <img src="static/flags/td.png" alt="Chad flag" class="flag">
+                    <p>Chad</p>
+                </a>
+            
+                <a href="French Southern and Antarctic Lands/index.html" class="grid-item" data-name="French Southern and Antarctic Lands">
+                    <img src="static/flags/tf.png" alt="French Southern and Antarctic Lands flag" class="flag">
+                    <p>French Southern and Antarctic Lands</p>
+                </a>
+            
+                <a href="Togo/index.html" class="grid-item" data-name="Togo">
+                    <img src="static/flags/tg.png" alt="Togo flag" class="flag">
+                    <p>Togo</p>
+                </a>
+            
+                <a href="Thailand/index.html" class="grid-item" data-name="Thailand">
+                    <img src="static/flags/th.png" alt="Thailand flag" class="flag">
+                    <p>Thailand</p>
+                </a>
+            
+                <a href="Tajikistan/index.html" class="grid-item" data-name="Tajikistan">
+                    <img src="static/flags/tj.png" alt="Tajikistan flag" class="flag">
+                    <p>Tajikistan</p>
+                </a>
+            
+                <a href="Tokelau/index.html" class="grid-item" data-name="Tokelau">
+                    <img src="static/flags/tk.png" alt="Tokelau flag" class="flag">
+                    <p>Tokelau</p>
+                </a>
+            
+                <a href="Timor-Leste/index.html" class="grid-item" data-name="Timor-Leste">
+                    <img src="static/flags/tl.png" alt="Timor-Leste flag" class="flag">
+                    <p>Timor-Leste</p>
+                </a>
+            
+                <a href="Turkmenistan/index.html" class="grid-item" data-name="Turkmenistan">
+                    <img src="static/flags/tm.png" alt="Turkmenistan flag" class="flag">
+                    <p>Turkmenistan</p>
+                </a>
+            
+                <a href="Tunisia/index.html" class="grid-item" data-name="Tunisia">
+                    <img src="static/flags/tn.png" alt="Tunisia flag" class="flag">
+                    <p>Tunisia</p>
+                </a>
+            
+                <a href="Tonga/index.html" class="grid-item" data-name="Tonga">
+                    <img src="static/flags/to.png" alt="Tonga flag" class="flag">
+                    <p>Tonga</p>
+                </a>
+            
+                <a href="Turkey/index.html" class="grid-item" data-name="Turkey">
+                    <img src="static/flags/tr.png" alt="Turkey flag" class="flag">
+                    <p>Turkey</p>
+                </a>
+            
+                <a href="Trinidad and Tobago/index.html" class="grid-item" data-name="Trinidad and Tobago">
+                    <img src="static/flags/tt.png" alt="Trinidad and Tobago flag" class="flag">
+                    <p>Trinidad and Tobago</p>
+                </a>
+            
+                <a href="Tuvalu/index.html" class="grid-item" data-name="Tuvalu">
+                    <img src="static/flags/tv.png" alt="Tuvalu flag" class="flag">
+                    <p>Tuvalu</p>
+                </a>
+            
+                <a href="Taiwan/index.html" class="grid-item" data-name="Taiwan">
+                    <img src="static/flags/tw.png" alt="Taiwan flag" class="flag">
+                    <p>Taiwan</p>
+                </a>
+            
+                <a href="Tanzania/index.html" class="grid-item" data-name="Tanzania">
+                    <img src="static/flags/tz.png" alt="Tanzania flag" class="flag">
+                    <p>Tanzania</p>
+                </a>
+            
+                <a href="Ukraine/index.html" class="grid-item" data-name="Ukraine">
+                    <img src="static/flags/ua.png" alt="Ukraine flag" class="flag">
+                    <p>Ukraine</p>
+                </a>
+            
+                <a href="Uganda/index.html" class="grid-item" data-name="Uganda">
+                    <img src="static/flags/ug.png" alt="Uganda flag" class="flag">
+                    <p>Uganda</p>
+                </a>
+            
+                <a href="United States Minor Outlying Islands/index.html" class="grid-item" data-name="United States Minor Outlying Islands">
+                    <img src="static/flags/um.png" alt="United States Minor Outlying Islands flag" class="flag">
+                    <p>United States Minor Outlying Islands</p>
+                </a>
+            
+                <a href="Uruguay/index.html" class="grid-item" data-name="Uruguay">
+                    <img src="static/flags/uy.png" alt="Uruguay flag" class="flag">
+                    <p>Uruguay</p>
+                </a>
+            
+                <a href="Uzbekistan/index.html" class="grid-item" data-name="Uzbekistan">
+                    <img src="static/flags/uz.png" alt="Uzbekistan flag" class="flag">
+                    <p>Uzbekistan</p>
+                </a>
+            
+                <a href="Vatican City (Holy See)/index.html" class="grid-item" data-name="Vatican City (Holy See)">
+                    <img src="static/flags/va.png" alt="Vatican City (Holy See) flag" class="flag">
+                    <p>Vatican City (Holy See)</p>
+                </a>
+            
+                <a href="Saint Vincent and the Grenadines/index.html" class="grid-item" data-name="Saint Vincent and the Grenadines">
+                    <img src="static/flags/vc.png" alt="Saint Vincent and the Grenadines flag" class="flag">
+                    <p>Saint Vincent and the Grenadines</p>
+                </a>
+            
+                <a href="Venezuela/index.html" class="grid-item" data-name="Venezuela">
+                    <img src="static/flags/ve.png" alt="Venezuela flag" class="flag">
+                    <p>Venezuela</p>
+                </a>
+            
+                <a href="British Virgin Islands/index.html" class="grid-item" data-name="British Virgin Islands">
+                    <img src="static/flags/vg.png" alt="British Virgin Islands flag" class="flag">
+                    <p>British Virgin Islands</p>
+                </a>
+            
+                <a href="United States Virgin Islands/index.html" class="grid-item" data-name="United States Virgin Islands">
+                    <img src="static/flags/vi.png" alt="United States Virgin Islands flag" class="flag">
+                    <p>United States Virgin Islands</p>
+                </a>
+            
+                <a href="United States/index.html" class="grid-item" data-name="United States">
+                    <img src="static/flags/us.png" alt="United States flag" class="flag">
+                    <p>United States</p>
+                </a>
+            
+                <a href="Vietnam/index.html" class="grid-item" data-name="Vietnam">
+                    <img src="static/flags/vn.png" alt="Vietnam flag" class="flag">
+                    <p>Vietnam</p>
+                </a>
+            
+                <a href="Vanuatu/index.html" class="grid-item" data-name="Vanuatu">
+                    <img src="static/flags/vu.png" alt="Vanuatu flag" class="flag">
+                    <p>Vanuatu</p>
+                </a>
+            
+                <a href="Wallis and Futuna/index.html" class="grid-item" data-name="Wallis and Futuna">
+                    <img src="static/flags/wf.png" alt="Wallis and Futuna flag" class="flag">
+                    <p>Wallis and Futuna</p>
+                </a>
+            
+                <a href="Samoa/index.html" class="grid-item" data-name="Samoa">
+                    <img src="static/flags/ws.png" alt="Samoa flag" class="flag">
+                    <p>Samoa</p>
+                </a>
+            
+                <a href="Kosovo/index.html" class="grid-item" data-name="Kosovo">
+                    <img src="static/flags/xk.png" alt="Kosovo flag" class="flag">
+                    <p>Kosovo</p>
+                </a>
+            
+                <a href="Yemen/index.html" class="grid-item" data-name="Yemen">
+                    <img src="static/flags/ye.png" alt="Yemen flag" class="flag">
+                    <p>Yemen</p>
+                </a>
+            
+                <a href="Mayotte/index.html" class="grid-item" data-name="Mayotte">
+                    <img src="static/flags/yt.png" alt="Mayotte flag" class="flag">
+                    <p>Mayotte</p>
+                </a>
+            
+                <a href="South Africa/index.html" class="grid-item" data-name="South Africa">
+                    <img src="static/flags/za.png" alt="South Africa flag" class="flag">
+                    <p>South Africa</p>
+                </a>
+            
+                <a href="Zambia/index.html" class="grid-item" data-name="Zambia">
+                    <img src="static/flags/zm.png" alt="Zambia flag" class="flag">
+                    <p>Zambia</p>
+                </a>
+            
+                <a href="Zimbabwe/index.html" class="grid-item" data-name="Zimbabwe">
+                    <img src="static/flags/zw.png" alt="Zimbabwe flag" class="flag">
+                    <p>Zimbabwe</p>
+                </a>
+            
+        </div>
+    </main>
+
+    <footer>
+        <div class="copyright">
+            <p>Stiles</p>
+        </div>
+    </footer>
+
+    <!-- Link to external scripts -->
+    <script src="/static/script.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script>
+</body>
+</html>

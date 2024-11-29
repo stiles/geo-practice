@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ country.name }}</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>{{ country.name }}</h1>
+    </header>
+
+    <main class="country-page">
+        <section class="overview">
+            <img src="../static/flags/{{ country.code }}.png" alt="{{ country.name }} flag" class="country-flag">
+            <div id="map" class="country-map" data-lat="{{ country.lat }}" data-lon="{{ country.lon }}"></div>
+        </section>
+
+        {% if country.geoguessr_clues %}
+        <section class="clues">
+            <h2>{{ country.name }} clues</h2>
+            <ul class="clue-list">
+                {% for key, value in country.geoguessr_clues.items() %}
+                <li>
+                    <strong>{{ key | capitalize }}:</strong>
+                    <p>{{ value }}</p>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% else %}
+        <section>
+            <p>No GeoGuessr clues available for this country.</p>
+        </section>
+        {% endif %}
+    </main>
+
+    <footer>
+        <p><a href="/index.html">Back to Home</a></p>
+    </footer>
+
+    <script src="../static/script.js"></script>
+</body>
+</html>
