@@ -1,22 +1,29 @@
-# Geo practice: Tools for kids learning geography
+# GeoGuessr vibe generator
 
-This repository contains a growing set of tools designed to help my daughters improve their geography skills in a fun and interactive way. Currently, the project includes a **mapping quiz** and a **flag grid**, with more features planned for the future.
+This repository contains a growing set of tools aimed at boosting your play on GeoGuessr, a game that challenges users to recognize locations from Google Street View's panoramic images. 
+
+The project was born out of a desire to help my kids better understand geography, but it has turned into an experiement in using AI tools to generate structured data — in this case hints for identifying world countries and US states on the roadways. 
+
+The project, for now, includes scripts to collect and generate game-specific metadata about counties. It also contains code to create a simple country mapping quiz and a filterable grid of national flags, with country-specific pages baked into static files. 
+
+*It's very new and a work in progress.* 
 
 ---
 
-## 📂 Project structure
+## Project structure
 
 ### Directories
 
 #### `data/`
 This directory contains various datasets used throughout the project:
-- **`codes.json`**: A list of country codes and associated metadata.
-- **`countries.json`**: A simplified dataset of country names and codes.
-- **`countries_regions.json`**: An enriched dataset including countries, their regions, and sub-regions.
-- **`iso_to_continents.csv`**: A CSV mapping ISO country codes to continents and regions.
+- **`codes.json`**: A file mapping of ISO-2 country codes and associated names.
+- **`countries_regions.json`**: A metadata file that includes ~240 countries and territories with their centroid coordinates, regions and sub-regions, among other items. 
+- **`geoguessr_clues.json`**: A JSON file derived by `gpt-4o-mini` that lists key Street View clues about ~240 countries and territories.
+- **`geoguessr_clues_usa_states.json`**: A JSON file derived by `gpt-4o-mini` that lists key Street View clues about the 50 states and the District of Columbia.
+- **`usa_states_regions.json`**: A metadata file that includes centroid coordinates, regions and other information about the 50 US states and the District of Columbia. 
 
 #### `images/`
-A directory containing flag images for all countries, saved as PNG files named by their country codes (e.g., `us.png` for the United States).
+A directory containing flag images for all countries, saved as PNG files named by their country codes (e.g., `us.png` for the United States), sourced from [Flagpedia](https://flagpedia.net/).
 
 #### `scripts/`
 Python scripts used for generating and managing the project assets:
@@ -24,47 +31,3 @@ Python scripts used for generating and managing the project assets:
 - **`flags.py`**: Generates the HTML file for the flag grid.
 - **`quiz.py`**: Contains logic for the interactive map quiz.
 - **`regions.py`**: Utility scripts for region-based categorization and filtering.
-
-#### Other files
-- **`flags.html`**: A dynamically generated HTML page displaying all country flags, grouped by region, with a search/filter feature.
-
----
-
-## ✨ Features
-
-### 1. Mapping quiz
-An interactive quiz that challenges users to identify countries on a map:
-- Uses the **Mapbox** library to display a world map.
-- Dynamically fetches countries and provides multiple-choice options.
-- Tracks the user's score over a 10-question quiz.
-- Options to switch between map styles (e.g., satellite view) and navigate using controls.
-
-### 2. Flag grid
-A searchable and filterable grid of country flags:
-- Flags are grouped by continent/region (e.g., Europe, Africa).
-- Includes a search bar to filter flags by country name in real-time.
-- Responsive grid layout with adjustable item sizing to handle varying screen sizes.
-
-## Running the Quiz
-- Start a local server, eg. `python -m http.server 8000`
-- Open `index.html` in your browser.
-
-## Customizing Data
-- Modify `data/countries_regions.json` to add or adjust country data.
-- Add or replace flag images in the `images/` directory.
-
-## 🚀 Roadmap
-
-Planned features and improvements:
-1. **Timed quiz mode**: Add a time limit to answer each question.
-2. **Detailed Score Feedback**: Provide insights into accuracy by continent or region.
-3. **Interactive Learning Tools**: Incorporate capital cities, population data, and other trivia.
-4. **Leaderboard**: Track scores and allow users to compete globally.
-5. **Offline Mode**: Add support for using the flag grid offline.
-6. **US states quiz**: Similar structure to the countries quiz
-
-## 📜 License
-This project is licensed under the MIT License. Feel free to use and modify it for personal or educational purposes.
-
-## 👥 Contributors
-- Contributions are welcome! Feel free to submit pull requests or report issues.

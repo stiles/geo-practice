@@ -25,7 +25,7 @@
     <main>
         <div id="grid-container" class="grid-container">
             {% for code, country in countries.items() %}
-                <a href="{{ code }}/index.html" class="grid-item" data-name="{{ country.name }}">
+                <a href="{{ country.name | slugify }}/index.html" class="grid-item" data-name="{{ country.name }}">
                     <img src="static/flags/{{ country.code }}.png" alt="{{ country.name }} flag" class="flag">
                     <p>{{ country.name }}</p>
                 </a>

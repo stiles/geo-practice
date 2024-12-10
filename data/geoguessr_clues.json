@@ -855,24 +855,24 @@
         }
     },
     "Colombia": {
-    "code": "co",
-    "name": "Colombia",
-    "lat": 4.570868,
-    "lon": -74.297333,
-    "region": "Americas",
-    "sub-region": "Latin America and the Caribbean",
-    "geoguessr_clues": {
-        "language": "Spanish is the official language, using the Latin alphabet with no special characters.",
-        "cars": "Vehicle registration plates are white with a yellow band at the top, featuring the province's name.",
-        "driving": "Vehicles drive on the right side of the road.",
-        "signs": "Road signs are usually in Spanish, with clear and colorful designs, often including symbols for warnings and directions.",
-        "environment": "Colombia has a diverse landscape featuring mountains (Andes), jungles (Amazon), and coastal areas (Caribbean and Pacific).",
-        "infrastructure": "Architectural styles vary from colonial buildings in cities like Cartagena to modern skyscrapers in Bogotá.",
-        "culture": "Look for markers such as street vendors selling fruit, colorful murals, and public plazas often filled with people.",
-        "bonus": "Street View may show unique features like coffee plantations in the countryside or vibrant city life in urban areas.",
-        "flag": "The flag consists of three horizontal stripes: yellow (top, half of the flag), blue, and red."
-    }
-},
+        "code": "co",
+        "name": "Colombia",
+        "lat": 4.570868,
+        "lon": -74.297333,
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "geoguessr_clues": {
+            "language": "Spanish is the official language, using the Latin alphabet with no special characters.",
+            "cars": "Vehicle registration plates are white with a yellow band at the top, featuring the province's name.",
+            "driving": "Vehicles drive on the right side of the road.",
+            "signs": "Road signs are usually in Spanish, with clear and colorful designs, often including symbols for warnings and directions.",
+            "environment": "Colombia has a diverse landscape featuring mountains (Andes), jungles (Amazon), and coastal areas (Caribbean and Pacific).",
+            "infrastructure": "Architectural styles vary from colonial buildings in cities like Cartagena to modern skyscrapers in Bogotá.",
+            "culture": "Look for markers such as street vendors selling fruit, colorful murals, and public plazas often filled with people.",
+            "bonus": "Street View may show unique features like coffee plantations in the countryside or vibrant city life in urban areas.",
+            "flag": "The flag consists of three horizontal stripes: yellow (top, half of the flag), blue, and red."
+        }
+    },
     "Costa Rica": {
         "code": "cr",
         "name": "Costa Rica",

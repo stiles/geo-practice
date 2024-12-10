@@ -1,0 +1,1022 @@
+{
+    "Alabama": {
+        "state_name": "Alabama",
+        "state_fips": "01",
+        "sub_region": "East South Central",
+        "state_abbr": "AL",
+        "population": 4951876,
+        "pop_sqmi": 95.9,
+        "sqmi": 51649.05,
+        "lat": 32.8192,
+        "lon": -86.8256,
+        "geoguessr_clues": {
+            "cars": "Alabama's most-common vehicle registration plate features a blue background with a white outline of the state and the words 'Heart of Dixie' at the bottom.",
+            "driving": "Major highways include Interstate 65, Interstate 20, and Interstate 85, which connect key cities such as Birmingham, Montgomery, and Mobile.",
+            "signs": "Alabama road signs typically have green backgrounds for informational signs and white backgrounds for regulatory signs, similar to the US norm, but may feature unique state symbols.",
+            "environment": "The landscape includes rolling hills, forests of southern pine and oak, fertile farmland, and areas of wetlands, particularly in the Mobile-Tensaw Delta.",
+            "infrastructure": "Architectural styles often include colonial and antebellum homes, as well as modern urban developments in cities like Birmingham and Huntsville.",
+            "culture": "Distinctive markers include roadside barbecue joints, cotton fields, and historical markers related to the Civil Rights movement.",
+            "bonus": "Look for the presence of county fair signs, peculiar local diners, and murals depicting Southern culture, which are common in rural areas."
+        }
+    },
+    "Alaska": {
+        "state_name": "Alaska",
+        "state_fips": "02",
+        "sub_region": "Pacific",
+        "state_abbr": "AK",
+        "population": 744733,
+        "pop_sqmi": 1.3,
+        "sqmi": 581369.17,
+        "lat": 65.4514,
+        "lon": -152.8976,
+        "geoguessr_clues": {
+            "cars": "Alaska's most-common vehicle registration plate is blue and features a silhouette of the Big Dipper and the North Star.",
+            "driving": "The major highways include the Alaska Highway (AK-2) and the Glenn Highway (AK-1), as well as the Parks Highway (AK-3) connecting Anchorage and Fairbanks.",
+            "signs": "Road signs in Alaska often include both English and Native Alaskan languages, and may feature unique symbols representing local wildlife.",
+            "environment": "Alaska is characterized by its vast wilderness, including dense forests of spruce and birch, mountainous terrain, glaciers, and tundra landscapes.",
+            "infrastructure": "Unique architectural styles include log cabins, rustic lodges, and buildings designed to withstand heavy snowfall.",
+            "culture": "Distinctive markers include totem poles, Native Alaskan cultural centers, and wildlife viewing areas, often marked with signs.",
+            "bonus": "Look for unique features like the northern lights, wildlife such as moose and bears, and seasonal indicators like snow-covered roads or summer wildflowers."
+        }
+    },
+    "Arizona": {
+        "state_name": "Arizona",
+        "state_fips": "04",
+        "sub_region": "Mountain",
+        "state_abbr": "AZ",
+        "population": 7031568,
+        "pop_sqmi": 61.7,
+        "sqmi": 113997.77,
+        "lat": 34.3344,
+        "lon": -111.6665,
+        "geoguessr_clues": {
+            "cars": "Arizona's most-common vehicle registration plate features a sunset design with orange and yellow colors, plus a silhouette of the Grand Canyon.",
+            "driving": "Major highways include Interstate 10 (I-10), Interstate 17 (I-17), and U.S. Route 60.",
+            "signs": "Road signs often feature a desert-themed aesthetic, with some signs in Spanish due to the state's proximity to Mexico.",
+            "environment": "Arizona is characterized by desert landscapes, cacti (especially saguaro), rocky terrain, and red clay soil in many areas.",
+            "infrastructure": "Adobe-style buildings, Southwestern architecture, and extensive use of stucco are common, especially in urban areas like Phoenix and Tucson.",
+            "culture": "Cultural markers include Native American art galleries, roadside stands selling prickly pear products, and historic Route 66 memorabilia.",
+            "bonus": "Look for distinctive roadside attractions like the London Bridge in Lake Havasu City and the various desert botanical gardens."
+        }
+    },
+    "Arkansas": {
+        "state_name": "Arkansas",
+        "state_fips": "05",
+        "sub_region": "West South Central",
+        "state_abbr": "AR",
+        "population": 3041640,
+        "pop_sqmi": 57.2,
+        "sqmi": 53178.77,
+        "lat": 34.9153,
+        "lon": -92.432,
+        "geoguessr_clues": {
+            "cars": "Arkansas's most-common vehicle registration plate is predominantly white with a blue border and features a design of the state flag in the center.",
+            "driving": "Major highways include Interstate 40 and Interstate 30, which are key routes for traveling across the state.",
+            "signs": "Arkansas road signs often feature a distinct blue and white color scheme, with highway signs indicating routes using a unique font style.",
+            "environment": "The landscape features the Ozark Mountains in the north, dense forests, and a variety of agricultural areas, including rice and soybean fields.",
+            "infrastructure": "Architectural styles in Arkansas include a mix of traditional Southern homes, modern designs, and notable historic buildings like those found in Little Rock.",
+            "culture": "Distinctive markers include the presence of numerous churches, local diners, and unique roadside attractions like the World's Largest Rocking Chair.",
+            "bonus": "Look for the Arkansas State Police vehicles which are often white with a blue stripe, as well as the occasional sighting of local farmers' markets along rural roads."
+        }
+    },
+    "California": {
+        "state_name": "California",
+        "state_fips": "06",
+        "sub_region": "Pacific",
+        "state_abbr": "CA",
+        "population": 39611295,
+        "pop_sqmi": 250.5,
+        "sqmi": 158144.83,
+        "lat": 37.3891,
+        "lon": -119.6719,
+        "geoguessr_clues": {
+            "cars": "California's most-common vehicle registration plate features a white background with a blue and yellow color scheme, and the state outline is often visible.",
+            "driving": "Major highways include the Pacific Coast Highway (California Route 1) and Interstates 5, 10, and 405.",
+            "signs": "California road signs often use a distinctive green background for informational signs, and the state has unique highway exit signs shaped like the outline of California.",
+            "environment": "California is known for its diverse landscapes including coastal beaches, deserts, mountains like the Sierra Nevada, and agricultural areas with vineyards and orchards.",
+            "infrastructure": "Architectural styles range from Spanish Mission Revival to Mid-Century Modern, with a prevalence of palm trees lining urban streets.",
+            "culture": "Distinctive markers include surf shops, taco trucks, and vineyards, as well as the presence of Hollywood-related signage.",
+            "bonus": "Look for unique landmarks such as the Golden Gate Bridge, Hollywood Sign, and various national parks like Yosemite and Sequoia."
+        }
+    },
+    "Colorado": {
+        "state_name": "Colorado",
+        "state_fips": "08",
+        "sub_region": "Mountain",
+        "state_abbr": "CO",
+        "population": 5594670,
+        "pop_sqmi": 53.7,
+        "sqmi": 104093.95,
+        "lat": 39.0256,
+        "lon": -105.5479,
+        "geoguessr_clues": {
+            "cars": "Colorado's vehicle registration plates are predominantly blue and white, featuring the state flag's colors with a sun and mountains design.",
+            "driving": "Major highways include I-25, I-70, and I-76, which are key routes running north-south and east-west across the state.",
+            "signs": "Colorado road signs often include unique shapes, such as the 'C' logo for Colorado highways, alongside standard U.S. signage.",
+            "environment": "The landscape features the Rocky Mountains, high plains, and diverse ecosystems including pine forests, desert areas, and agricultural fields.",
+            "infrastructure": "Architectural styles include a mix of modern and rustic designs, with log cabins, brick buildings, and historic mining towns being common.",
+            "culture": "Distinctive markers include breweries, ski resorts, and outdoor recreation signage reflecting Colorado's outdoor lifestyle and craft beer culture.",
+            "bonus": "Look for wildlife crossings, mountain vistas, and signs for national parks such as Rocky Mountain National Park, which highlight Colorado's natural beauty."
+        }
+    },
+    "Connecticut": {
+        "state_name": "Connecticut",
+        "state_fips": "09",
+        "sub_region": "New England",
+        "state_abbr": "CT",
+        "population": 3648725,
+        "pop_sqmi": 735.2,
+        "sqmi": 4962.77,
+        "lat": 41.6194,
+        "lon": -72.7243,
+        "geoguessr_clues": {
+            "cars": "Connecticut's vehicle registration plates are predominantly blue with white lettering, often featuring a depiction of the state coat of arms.",
+            "driving": "Major highways include Interstate 95, Interstate 84, and the Merritt Parkway, which are critical for navigating the state.",
+            "signs": "Connecticut road signs generally follow the standard US norms but may include specific blue and white directional signs that indicate state parks and historical sites.",
+            "environment": "Connecticut features a mix of coastal areas, rolling hills, and dense forests, with notable elements like the Long Island Sound and various rivers.",
+            "infrastructure": "Common architectural styles include Colonial, Federal, and Victorian, particularly in historic towns like Mystic and New Haven.",
+            "culture": "Look for distinctive markers such as lobster shacks along the coast, historic lighthouses, and farm stands in rural areas reflecting the agricultural heritage.",
+            "bonus": "Connecticut is known for its quaint small towns, Ivy League campuses like Yale, and seasonal fall foliage that can be particularly vibrant."
+        }
+    },
+    "Delaware": {
+        "state_name": "Delaware",
+        "state_fips": "10",
+        "sub_region": "South Atlantic",
+        "state_abbr": "DE",
+        "population": 971403,
+        "pop_sqmi": 491.7,
+        "sqmi": 1975.78,
+        "lat": 38.9983,
+        "lon": -75.5011,
+        "geoguessr_clues": {
+            "cars": "Delaware's vehicle registration plates are primarily blue with yellow lettering, featuring a state coat of arms in the center.",
+            "driving": "Major highways include I-95, I- Delaware Route 1, and US Route 13, which are key identifiers for navigating the state.",
+            "signs": "Delaware road signs typically use the standard green background with white lettering, but some signs may feature the state’s blue color scheme.",
+            "environment": "Delaware has flat terrain with agricultural fields, forests, and coastal areas; notable features include the pine forests and the Delaware Bay.",
+            "infrastructure": "Common architectural styles include Colonial and Victorian homes, with brick and clapboard siding prevalent in urban areas.",
+            "culture": "Look for historical markers, farms, and structures like the state’s iconic tax-free shopping signs along highways.",
+            "bonus": "Delaware is known for its small size, so community-centric elements like local diners, parks, and small-town squares are common sights."
+        }
+    },
+    "District of Columbia": {
+        "state_name": "District of Columbia",
+        "state_fips": "11",
+        "sub_region": "South Atlantic",
+        "state_abbr": "DC",
+        "population": 674875,
+        "pop_sqmi": 10851.8,
+        "sqmi": 62.19,
+        "lat": 38.9026,
+        "lon": -77.0156,
+        "geoguessr_clues": {
+            "cars": "The main color of District of Columbia's most-common vehicle registration plate is white with a red top and features a design of the District's flag.",
+            "driving": "Major highways include I-295, I-395, and I-66, which connect the District to surrounding areas.",
+            "signs": "Road signs in District of Columbia often feature a distinct design with a consistent blue and white color scheme, and are known for their clear visibility.",
+            "environment": "The environment includes urban landscapes with parks, such as Rock Creek Park, and a mix of deciduous trees typical of the Mid-Atlantic region.",
+            "infrastructure": "Architectural styles include neoclassical buildings, particularly in the National Mall area, and modernist structures in urban neighborhoods.",
+            "culture": "Distinctive markers include the presence of monuments, memorials, and government buildings, such as the White House and the Capitol.",
+            "bonus": "Street artworks and murals are common in various neighborhoods, providing a vibrant cultural identity to the District."
+        }
+    },
+    "Florida": {
+        "state_name": "Florida",
+        "state_fips": "12",
+        "sub_region": "South Atlantic",
+        "state_abbr": "FL",
+        "population": 20619313,
+        "pop_sqmi": 363.7,
+        "sqmi": 56695.03,
+        "lat": 28.7022,
+        "lon": -82.5262,
+        "geoguessr_clues": {
+            "cars": "Florida's most-common vehicle registration plate features a white background with a green and yellow design, including a sun and an orange tree.",
+            "driving": "Major highways include I-95, I-75, and the Florida Turnpike.",
+            "signs": "Florida road signs often feature a green background with white lettering, and highway exit signs may include the state outline.",
+            "environment": "Florida is known for its lush palm trees, sandy beaches, wetlands, and the Everglades, with a subtropical climate.",
+            "infrastructure": "Architectural styles include Mediterranean Revival, Art Deco in Miami, and stilt houses in coastal areas.",
+            "culture": "Look for markers like citrus fruit stands, seafood shacks, and theme park signage along the roadways.",
+            "bonus": "Distinctive features such as Spanish moss hanging from oak trees, large billboards advertising attractions, and unique wildlife crossings."
+        }
+    },
+    "Georgia": {
+        "state_name": "Georgia",
+        "state_fips": "13",
+        "sub_region": "South Atlantic",
+        "state_abbr": "GA",
+        "population": 10390390,
+        "pop_sqmi": 176.7,
+        "sqmi": 58808.69,
+        "lat": 32.6819,
+        "lon": -83.4624,
+        "geoguessr_clues": {
+            "cars": "Georgia's most-common vehicle registration plates are predominantly peach-colored with a blue stripe at the bottom and feature an image of a peach.",
+            "driving": "Major highways include I-75, I-85, and I-20, which are often marked by distinctive green and white signage.",
+            "signs": "Road signs in Georgia generally follow the federal standards but may include the state's peach logo on welcome signs and tourist information.",
+            "environment": "Georgia features a diverse landscape including pine forests, rolling hills, and flat areas, with prominent agricultural areas that grow peaches, peanuts, and cotton.",
+            "infrastructure": "Common architectural styles include Southern colonial homes, brick buildings, and antebellum architecture, especially in cities like Savannah and Atlanta.",
+            "culture": "Distinctive markers include peach orchards, Civil War historical markers, and Southern-style churches, often with tall steeples.",
+            "bonus": "Look for unique features such as the Atlanta skyline, historic districts in Savannah, and the prevalence of kudzu vines covering structures and trees."
+        }
+    },
+    "Hawaii": {
+        "state_name": "Hawaii",
+        "state_fips": "15",
+        "sub_region": "Pacific",
+        "state_abbr": "HI",
+        "population": 1461211,
+        "pop_sqmi": 227.3,
+        "sqmi": 6429.38,
+        "lat": 20.217,
+        "lon": -156.2616,
+        "geoguessr_clues": {
+            "cars": "Hawaii's most-common vehicle registration plate features a blue background with a white outline of the state flag, often with a rainbow and palm tree design.",
+            "driving": "The main highways include H-1, H-2, and H-3, which are the primary routes on Oahu.",
+            "signs": "Road signs in Hawaii often include bilingual text in English and Hawaiian, with some signs featuring distinctive Hawaiian place names.",
+            "environment": "Hawaii is characterized by lush tropical vegetation, volcanic landscapes, beaches with black, white, and green sands, and the presence of palm trees.",
+            "infrastructure": "Common architectural styles include wooden plantation houses, tiki-style designs, and buildings with lanai (porches) that reflect Polynesian influence.",
+            "culture": "Cultural markers include surf shops, luaus, hula schools, and unique roadside stands selling local fruits and shaved ice.",
+            "bonus": "Look for unique features like the iconic Diamond Head crater, the presence of tiki torches, and traditional Hawaiian motifs in public art."
+        }
+    },
+    "Idaho": {
+        "state_name": "Idaho",
+        "state_fips": "16",
+        "sub_region": "Mountain",
+        "state_abbr": "ID",
+        "population": 1714694,
+        "pop_sqmi": 20.5,
+        "sqmi": 83570.14,
+        "lat": 44.4641,
+        "lon": -114.6863,
+        "geoguessr_clues": {
+            "cars": "Idaho's most-common vehicle registration plate is blue with a silhouette of a mountain and a river, featuring a yellow border.",
+            "driving": "Major highways include Interstate 84 and Interstate 90, as well as U.S. Route 95.",
+            "signs": "Road signs in Idaho typically feature the state's scenic landscapes and may include the state logo, which depicts a mountain and a river.",
+            "environment": "Idaho is known for its diverse landscapes, including mountainous regions, rivers, and vast agricultural fields, particularly in the southern part of the state.",
+            "infrastructure": "Typical architectural styles include rustic log cabins and ranch-style homes, with urban areas featuring mid-century modern buildings.",
+            "culture": "Distinctive markers include potato farms, grain silos, and historic mining towns that reflect Idaho's agricultural and mining heritage.",
+            "bonus": "Look for the iconic Boise River Greenbelt and unique wildlife signs indicating the presence of species like the bald eagle or elk."
+        }
+    },
+    "Illinois": {
+        "state_name": "Illinois",
+        "state_fips": "17",
+        "sub_region": "East North Central",
+        "state_abbr": "IL",
+        "population": 13027812,
+        "pop_sqmi": 231.2,
+        "sqmi": 56341.77,
+        "lat": 40.1043,
+        "lon": -89.2045,
+        "geoguessr_clues": {
+            "cars": "The main color of Illinois's most-common vehicle registration plate is white with a blue border and features a depiction of the state flag. It also includes the phrase 'Land of Lincoln'.",
+            "driving": "Major highways include Interstate 55, Interstate 90, and Interstate 70, which are key routes through the state.",
+            "signs": "Illinois road signs typically use the standard green background with white lettering, but also feature unique 'Welcome to Illinois' signs that often include the state outline.",
+            "environment": "Illinois is characterized by flat plains, agricultural fields, and the presence of the Mississippi River along its western border. The state has a mix of deciduous forests and prairies.",
+            "infrastructure": "Common architectural styles include Chicago-style brick buildings, mid-century modern homes, and iconic structures like the Willis Tower in Chicago. Historic Route 66 signage is also prevalent.",
+            "culture": "Distinctive markers include numerous cornfields, barns, and the occasional classic diner, especially along rural highways. The presence of Chicago-style pizza restaurants is also notable.",
+            "bonus": "You might spot the iconic Chicago skyline from certain vantage points, as well as murals and street art that reflect the cultural diversity of urban areas."
+        }
+    },
+    "Indiana": {
+        "state_name": "Indiana",
+        "state_fips": "18",
+        "sub_region": "East North Central",
+        "state_abbr": "IN",
+        "population": 6746689,
+        "pop_sqmi": 186.5,
+        "sqmi": 36183.72,
+        "lat": 39.9379,
+        "lon": -86.2732,
+        "geoguessr_clues": {
+            "cars": "Indiana's most-common vehicle registration plate features a blue background with a yellow torch and stars, along with the phrase 'The Crossroads of America.'",
+            "driving": "Major highways include Interstate 65, Interstate 70, and Interstate 74, which run through the state and are key for navigation.",
+            "signs": "Indiana road signs typically have a blue background with white lettering, and highway signs often include the Indiana shape for state routes.",
+            "environment": "The state is known for its flat terrain, agricultural fields, corn and soybean crops, and scattered wooded areas.",
+            "infrastructure": "Common architectural styles include red brick buildings in urban areas and traditional barn designs in rural settings, alongside many small towns with historic main streets.",
+            "culture": "Identifiable markers include numerous cornfields, covered bridges, and the iconic Indy 500 race events, as well as many local diners and farm markets.",
+            "bonus": "Indiana is home to several unique roadside attractions, such as the world's largest strawberry and the historic towns of Nashville and Santa Claus."
+        }
+    },
+    "Iowa": {
+        "state_name": "Iowa",
+        "state_fips": "19",
+        "sub_region": "West North Central",
+        "state_abbr": "IA",
+        "population": 3199548,
+        "pop_sqmi": 56.9,
+        "sqmi": 56272.82,
+        "lat": 42.0919,
+        "lon": -93.5032,
+        "geoguessr_clues": {
+            "cars": "Iowa's vehicle registration plates are primarily blue and gold, featuring a design with a prominent eagle.",
+            "driving": "Major highways include Interstate 80 and Interstate 35, which are key routes running through the state.",
+            "signs": "Iowa road signs typically follow the national standard but may feature unique state symbols like the state flower (the wild rose) on some signs.",
+            "environment": "Iowa is characterized by rolling farmland, cornfields, and soybean fields, with occasional wooded areas and rivers.",
+            "infrastructure": "Common architectural styles include traditional Midwestern farmhouses, red barns, and small-town downtown areas with brick buildings.",
+            "culture": "Distinctive cultural markers include large grain silos, wind turbines, and roadside stands selling fresh produce.",
+            "bonus": "The presence of the Iowa State Fairgrounds, famous for its annual fair, and signs for local events or festivals are common sights."
+        }
+    },
+    "Kansas": {
+        "state_name": "Kansas",
+        "state_fips": "20",
+        "sub_region": "West North Central",
+        "state_abbr": "KS",
+        "population": 2970523,
+        "pop_sqmi": 36.1,
+        "sqmi": 82277.97,
+        "lat": 38.4981,
+        "lon": -98.3841,
+        "geoguessr_clues": {
+            "cars": "Kansas vehicle registration plates are predominantly blue with yellow lettering, featuring a sunflower design.",
+            "driving": "Major highways include Interstate 70, Interstate 35, and U.S. Route 50, which traverse the state.",
+            "signs": "Kansas road signs typically feature a unique dark green background with white lettering, differing from the standard blue or green seen in other states.",
+            "environment": "The landscape of Kansas is characterized by flat prairies, rolling hills, and agricultural fields, with occasional tree lines and grasslands.",
+            "infrastructure": "Common architectural styles include mid-century ranch homes, brick buildings in small towns, and modern agricultural structures.",
+            "culture": "Distinctive markers include large grain silos, wind farms, and historical markers related to the state's pioneer history.",
+            "bonus": "Look for the iconic 'Welcome to Kansas' signs and the presence of the state flower, the sunflower, in landscaping."
+        }
+    },
+    "Kentucky": {
+        "state_name": "Kentucky",
+        "state_fips": "21",
+        "sub_region": "East South Central",
+        "state_abbr": "KY",
+        "population": 4514130,
+        "pop_sqmi": 111.7,
+        "sqmi": 40409.65,
+        "lat": 37.5345,
+        "lon": -85.2808,
+        "geoguessr_clues": {
+            "cars": "Kentucky's vehicle registration plates feature a blue background with the state seal in the center and a gold border.",
+            "driving": "Major highways include Interstate 64, Interstate 65, and Interstate 75, which are key routes through the state.",
+            "signs": "Kentucky road signs typically have a blue and white color scheme, with some signs including state-specific symbols like the state seal.",
+            "environment": "The landscape includes rolling hills, horse farms, bluegrass pastures, and dense forests, particularly in the eastern part of the state.",
+            "infrastructure": "Common architectural styles include Colonial and Federal styles, with notable examples of horse barns and distilleries, particularly in Bourbon Country.",
+            "culture": "Look for markers like horse racing tracks, bourbon distilleries, and historic landmarks such as the Kentucky Derby and the Mammoth Cave.",
+            "bonus": "Unique features include the iconic bluegrass music signs, numerous covered bridges, and the presence of limestone caves."
+        }
+    },
+    "Louisiana": {
+        "state_name": "Louisiana",
+        "state_fips": "22",
+        "sub_region": "West South Central",
+        "state_abbr": "LA",
+        "population": 4786046,
+        "pop_sqmi": 102.3,
+        "sqmi": 46776.06,
+        "lat": 31.1293,
+        "lon": -92.04,
+        "geoguessr_clues": {
+            "cars": "Louisiana's most-common vehicle registration plate is blue with a white outline and features a pelican.",
+            "driving": "Major highways include Interstate 10 (I-10) and Interstate 20 (I-20), along with U.S. Route 61, known as the Great River Road.",
+            "signs": "Road signs in Louisiana may include bilingual English and Spanish, particularly in areas with a significant Hispanic population.",
+            "environment": "Louisiana features swamps, bayous, and a coastal environment with cypress trees, and the soil is often rich, dark, and fertile for agriculture.",
+            "infrastructure": "Architectural styles include Creole cottages, shotgun houses, and plantation-style mansions, particularly in New Orleans.",
+            "culture": "Distinctive markers include live oak trees adorned with Spanish moss, Mardi Gras decorations, and colorful shotgun houses.",
+            "bonus": "Look for unique features like raised homes on stilts due to flood risk, and signs for crawfish or shrimp farms."
+        }
+    },
+    "Maine": {
+        "state_name": "Maine",
+        "state_fips": "23",
+        "sub_region": "New England",
+        "state_abbr": "ME",
+        "population": 1367209,
+        "pop_sqmi": 42.1,
+        "sqmi": 32489.12,
+        "lat": 45.4201,
+        "lon": -69.2335,
+        "geoguessr_clues": {
+            "cars": "Maine's vehicle registration plates are primarily blue with white lettering and feature a design that includes a pine tree and the state motto, 'The Way Life Should Be'.",
+            "driving": "Major highways include I-95, which runs north-south through the state, and US Route 1, which follows the coastline.",
+            "signs": "Maine's road signs feature a distinctive green color for informational signs, and many highway signs include a pictorial of a moose.",
+            "environment": "Maine is known for its dense forests, especially pine trees, rocky coastlines, and a mix of agricultural areas, particularly in the Aroostook County.",
+            "infrastructure": "Common architectural styles include Cape Cod homes, Victorian mansions in coastal towns, and rustic cabins in rural areas.",
+            "culture": "Distinctive markers include lobster shacks, moose crossing signs, and the presence of lighthouses along the coast.",
+            "bonus": "Maine is famous for its blueberries, and you might see blueberry fields, as well as signage related to local festivals celebrating lobster and other seafood."
+        }
+    },
+    "Maryland": {
+        "state_name": "Maryland",
+        "state_fips": "24",
+        "sub_region": "South Atlantic",
+        "state_abbr": "MD",
+        "population": 6104335,
+        "pop_sqmi": 616.6,
+        "sqmi": 9899.54,
+        "lat": 39.0742,
+        "lon": -76.8352,
+        "geoguessr_clues": {
+            "cars": "Maryland's most-common vehicle registration plate features a gold and blue color scheme with the state flag design prominently displayed.",
+            "driving": "Major highways include Interstate 95 (I-95), Interstate 70 (I-70), and the Baltimore-Washington Parkway (MD 295).",
+            "signs": "Maryland road signs often use a blue and white color scheme, and the state has unique mile markers featuring the Maryland flag.",
+            "environment": "The state features a diverse landscape including the Chesapeake Bay, rolling hills, forests, and farmland, particularly in the western regions.",
+            "infrastructure": "Notable architectural styles include Colonial, Federal, and Victorian, with historic towns like Annapolis showcasing brick buildings and waterfront views.",
+            "culture": "Distinctive markers include crab shacks, the Maryland flag, and the presence of historic lighthouses along the coast.",
+            "bonus": "Look for the unique Maryland state flag, which is a combination of the Calvert and Crossland family coats of arms, often displayed on buildings and vehicles."
+        }
+    },
+    "Massachusetts": {
+        "state_name": "Massachusetts",
+        "state_fips": "25",
+        "sub_region": "New England",
+        "state_abbr": "MA",
+        "population": 6884028,
+        "pop_sqmi": 849.5,
+        "sqmi": 8103.95,
+        "lat": 42.2908,
+        "lon": -71.8518,
+        "geoguessr_clues": {
+            "cars": "Massachusetts vehicle registration plates are primarily white with a blue top, featuring the state seal and the word 'MASSACHUSETTS'.",
+            "driving": "Major highways include I-90 (Massachusetts Turnpike), I-95, and I-93.",
+            "signs": "Massachusetts road signs often use a blue background for informational signs and have unique town line signs that feature the town name in a distinctive font.",
+            "environment": "The landscape includes coastal areas, dense forests, rolling hills, and agricultural fields, particularly in the western part of the state.",
+            "infrastructure": "Common architectural styles include Colonial, Federal, and Victorian homes, as well as brick buildings in urban areas like Boston.",
+            "culture": "Distinctive markers include historic sites, such as old cemeteries, lighthouses along the coast, and Boston's Freedom Trail signage.",
+            "bonus": "Look for the iconic red and white lighthouse designs, particularly in coastal areas, and the presence of universities and colleges, which may have unique architectural features."
+        }
+    },
+    "Michigan": {
+        "state_name": "Michigan",
+        "state_fips": "26",
+        "sub_region": "East North Central",
+        "state_abbr": "MI",
+        "population": 10024786,
+        "pop_sqmi": 172.5,
+        "sqmi": 58128.82,
+        "lat": 44.373,
+        "lon": -85.4416,
+        "geoguessr_clues": {
+            "cars": "Michigan's most-common vehicle registration plate features a blue background with a depiction of the Great Lakes, along with the state name and a blue and white design.",
+            "driving": "Major highways include I-75, I-94, and I-96, as well as scenic routes like M-22 along the Lake Michigan shoreline.",
+            "signs": "Michigan road signs have a distinctive blue color for informational signs and often feature the state outline or symbols of the Great Lakes.",
+            "environment": "Michigan is known for its diverse landscapes, including dense forests (especially pine and hardwood), agricultural fields, and the Great Lakes shorelines.",
+            "infrastructure": "Architectural styles include Midwestern vernacular, Arts and Crafts bungalows, and industrial architecture from the automotive boom, particularly in cities like Detroit.",
+            "culture": "Distinctive markers include the iconic water towers, the numerous grain silos in rural areas, and historic lighthouses along the Great Lakes.",
+            "bonus": "Look for the presence of cherry orchards in the northwest, motor vehicle manufacturing plants, and the unique 'up north' cabins that are common in rural areas."
+        }
+    },
+    "Minnesota": {
+        "state_name": "Minnesota",
+        "state_fips": "27",
+        "sub_region": "West North Central",
+        "state_abbr": "MN",
+        "population": 5604047,
+        "pop_sqmi": 66.4,
+        "sqmi": 84376.21,
+        "lat": 46.3841,
+        "lon": -94.3079,
+        "geoguessr_clues": {
+            "cars": "Minnesota's vehicle registration plates are predominantly blue with a white silhouette of a lake and pine trees, along with a blue and white border.",
+            "driving": "Major highways include Interstate 35, Interstate 90, and Interstate 94, which are key identifiers for Minnesota.",
+            "signs": "Road signs in Minnesota typically feature blue and green backgrounds, with white lettering, and may include images of local wildlife.",
+            "environment": "Minnesota is characterized by its numerous lakes, forests, and rolling hills. The landscape includes vast agricultural fields, particularly for corn and soybeans.",
+            "infrastructure": "Common architectural styles include rustic log cabins and historic brick buildings, especially in cities like Minneapolis and St. Paul, reflecting a Midwestern urban design.",
+            "culture": "Distinctive markers include the iconic water towers, grain elevators in rural areas, and the presence of local breweries and coffee shops.",
+            "bonus": "Look for the North Star symbol, which is often featured in various public art displays, as a nod to Minnesota's nickname as the North Star State."
+        }
+    },
+    "Mississippi": {
+        "state_name": "Mississippi",
+        "state_fips": "28",
+        "sub_region": "East South Central",
+        "state_abbr": "MS",
+        "population": 3044258,
+        "pop_sqmi": 63.9,
+        "sqmi": 47675.31,
+        "lat": 32.7858,
+        "lon": -89.6627,
+        "geoguessr_clues": {
+            "cars": "Mississippi's vehicle registration plates are primarily white with a blue and red design and may feature the state flag.",
+            "driving": "Major highways include Interstate 10 (I-10) and Interstate 55 (I-55), which are key routes through the state.",
+            "signs": "Mississippi road signs often feature a distinctive green color with white lettering, and some signs may include the state shape.",
+            "environment": "The state is characterized by lush forests, particularly the longleaf pine, flatlands, and the Mississippi River, which plays a significant role in its geography.",
+            "infrastructure": "Common architectural styles include antebellum homes, shotgun houses, and brick buildings, particularly in urban areas like Jackson.",
+            "culture": "You may see historical markers, blues music venues, and cotton fields along the roadways, reflecting the state's cultural heritage.",
+            "bonus": "Look for unique features like the presence of magnolia trees, which are the state flower, and various Civil War historical sites."
+        }
+    },
+    "Missouri": {
+        "state_name": "Missouri",
+        "state_fips": "29",
+        "sub_region": "West North Central",
+        "state_abbr": "MO",
+        "population": 6191231,
+        "pop_sqmi": 88.8,
+        "sqmi": 69702.89,
+        "lat": 38.3945,
+        "lon": -92.49,
+        "geoguessr_clues": {
+            "cars": "Missouri's vehicle registration plates primarily feature a white background with blue lettering and a blue and gold border.",
+            "driving": "Major highways include Interstate 70, Interstate 64, and Interstate 44, which are key routes through the state.",
+            "signs": "Missouri road signs generally follow the national standards, but state-specific signs may include the state's shape or the phrase 'Show-Me State'.",
+            "environment": "Missouri features rolling hills, rivers such as the Missouri and Mississippi Rivers, and a mix of forests and farmland, including corn and soybean fields.",
+            "infrastructure": "Common architectural styles include brick buildings, historical courthouses, and a mix of urban and rural structures reflecting both Midwestern and Southern influences.",
+            "culture": "Distinctive markers include numerous barns, particularly those with painted advertisements, as well as local diners and roadside attractions like the Gateway Arch.",
+            "bonus": "Look for the presence of the Ozark Mountains in southern Missouri, as well as unique roadside attractions and festivals that celebrate local culture."
+        }
+    },
+    "Montana": {
+        "state_name": "Montana",
+        "state_fips": "30",
+        "sub_region": "Mountain",
+        "state_abbr": "MT",
+        "population": 1059459,
+        "pop_sqmi": 7.2,
+        "sqmi": 147042.71,
+        "lat": 47.0717,
+        "lon": -109.6586,
+        "geoguessr_clues": {
+            "cars": "Montana's most-common vehicle registration plate is a blue background with a depiction of the state seal and mountains, often featuring a yellow sun.",
+            "driving": "Major highways include Interstate 90 (I-90) and Interstate 94 (I-94), along with U.S. Route 2 and U.S. Route 12.",
+            "signs": "Montana uses standard U.S. road signage, but many signs may feature unique symbols or references to local wildlife, such as signs warning of deer crossings.",
+            "environment": "Montana is known for its diverse landscapes including the Rocky Mountains, vast plains, and numerous rivers. You may see rolling hills, forests, and agricultural fields.",
+            "infrastructure": "Architectural styles often include log cabins, ranch-style homes, and historic brick buildings, particularly in towns like Virginia City and Bozeman.",
+            "culture": "Distinctive cultural markers include old western-style saloons, rodeo arenas, and native American art, as well as historic ghost towns.",
+            "bonus": "Look for iconic landmarks like Glacier National Park, the Badlands, and the presence of wildlife such as bison and elk in rural areas."
+        }
+    },
+    "Nebraska": {
+        "state_name": "Nebraska",
+        "state_fips": "31",
+        "sub_region": "West North Central",
+        "state_abbr": "NE",
+        "population": 1938966,
+        "pop_sqmi": 25.1,
+        "sqmi": 77353.01,
+        "lat": 41.5393,
+        "lon": -99.8158,
+        "geoguessr_clues": {
+            "cars": "Nebraska's most-common vehicle registration plate features a blue background with a silhouette of a steamboat and the state seal, along with a yellow border.",
+            "driving": "Major highways include Interstate 80 (I-80) running east-west and Interstate 29 (I-29) running north-south.",
+            "signs": "Nebraska road signs follow federal standards, but often feature a distinctive state logo with a covered wagon, particularly on welcome signs.",
+            "environment": "The landscape features flat plains, rolling hills, and agricultural fields, with corn and soybeans being prevalent crops.",
+            "infrastructure": "Architectural styles include a mix of prairie-style homes, brick buildings in downtown areas, and historic structures like the Nebraska State Capitol with its unique tower.",
+            "culture": "Distinctive markers include grain elevators, windmills, and roadside attractions like the Carhenge replica of Stonehenge made from cars.",
+            "bonus": "Look for the presence of the Nebraska state flower, the goldenrod, and the occasional presence of bison in state parks."
+        }
+    },
+    "Nevada": {
+        "state_name": "Nevada",
+        "state_fips": "32",
+        "sub_region": "Mountain",
+        "state_abbr": "NV",
+        "population": 2994047,
+        "pop_sqmi": 27.1,
+        "sqmi": 110561.37,
+        "lat": 39.4099,
+        "lon": -116.6623,
+        "geoguessr_clues": {
+            "cars": "Nevada's most-common vehicle registration plate features a blue and silver design with a depiction of the state flag, along with a silver mountain range at the bottom.",
+            "driving": "Major highways include Interstate 15, Interstate 80, and U.S. Route 95, which are significant for traveling through the state.",
+            "signs": "Road signs in Nevada often use the same general format as the rest of the US but may feature additional symbols related to local attractions, such as casino and entertainment signs.",
+            "environment": "Nevada's landscape is characterized by arid desert terrain, sparse vegetation, and mountain ranges, with notable features like Lake Tahoe and the Sierra Nevada mountains.",
+            "infrastructure": "Common architectural styles include modern casinos and resorts, as well as ranch-style homes in rural areas, often featuring adobe or stucco exteriors.",
+            "culture": "Distinctive markers include neon signs from historic casinos, large billboards advertising entertainment, and roadside attractions related to gambling and tourism.",
+            "bonus": "Unique features include the prevalence of ghost towns, remnants of mining history, and the iconic Las Vegas Strip, which is recognizable even from a distance."
+        }
+    },
+    "New Hampshire": {
+        "state_name": "New Hampshire",
+        "state_fips": "33",
+        "sub_region": "New England",
+        "state_abbr": "NH",
+        "population": 1364251,
+        "pop_sqmi": 147.2,
+        "sqmi": 9266.56,
+        "lat": 43.6959,
+        "lon": -71.5763,
+        "geoguessr_clues": {
+            "cars": "New Hampshire's most-common vehicle registration plate features a blue background with white lettering and a depiction of the state seal.",
+            "driving": "Major highways include Interstate 93 and Interstate 95, which are key routes traversing the state.",
+            "signs": "Road signs in New Hampshire are typically green with white lettering, following standard US norms, but may have unique state-specific symbols or designs.",
+            "environment": "New Hampshire is characterized by its mountainous terrain, particularly the White Mountains, dense forests, and numerous lakes, including Lake Winnipesaukee.",
+            "infrastructure": "Common architectural styles include Colonial and Cape Cod homes, as well as historic buildings in towns like Portsmouth and Concord.",
+            "culture": "Distinctive markers include covered bridges, farm stands, and the iconic New Hampshire license plate featuring the state motto 'Live Free or Die'.",
+            "bonus": "Look for the large granite boulders and unique fall foliage which are prominent in the state during autumn."
+        }
+    },
+    "New Jersey": {
+        "state_name": "New Jersey",
+        "state_fips": "34",
+        "sub_region": "Middle Atlantic",
+        "state_abbr": "NJ",
+        "population": 9100237,
+        "pop_sqmi": 1204.8,
+        "sqmi": 7553.07,
+        "lat": 40.2062,
+        "lon": -74.6755,
+        "geoguessr_clues": {
+            "cars": "New Jersey's most-common vehicle registration plate is white with a blue border and a green tree logo.",
+            "driving": "Major highways include the New Jersey Turnpike (I-95), Garden State Parkway, and I-295.",
+            "signs": "New Jersey road signs typically feature the state outline, and highway signs are green with white lettering, similar to the national standard but often include local landmarks.",
+            "environment": "New Jersey features a mix of urban and suburban landscapes, with coastal areas, pine barrens, and agricultural fields, particularly in the central and southern regions.",
+            "infrastructure": "Common architectural styles include Colonial, Victorian, and modern suburban homes, as well as brick row houses in urban areas like Newark and Jersey City.",
+            "culture": "Distinctive markers include diners, pizzerias, and roadside farms, as well as signs for local breweries and vineyards.",
+            "bonus": "Look for the presence of the 'Welcome to New Jersey' sign adorned with the state seal, and unique features like the Atlantic City Boardwalk."
+        }
+    },
+    "New Mexico": {
+        "state_name": "New Mexico",
+        "state_fips": "35",
+        "sub_region": "Mountain",
+        "state_abbr": "NM",
+        "population": 2119862,
+        "pop_sqmi": 17.4,
+        "sqmi": 121588.62,
+        "lat": 34.4634,
+        "lon": -106.1004,
+        "geoguessr_clues": {
+            "cars": "New Mexico's most-common vehicle registration plate features a red Zia sun symbol on a yellow background.",
+            "driving": "Major highways include Interstate 40, which runs east-west, and Interstate 25, which runs north-south.",
+            "signs": "Road signs in New Mexico may feature unique designs such as the Zia sun symbol and are often bilingual, in English and Spanish.",
+            "environment": "The landscape includes high desert terrain, mesas, and mountains, with vegetation such as sagebrush, piñon trees, and junipers.",
+            "infrastructure": "Adobe-style architecture is common, with buildings often featuring earth-tone colors and flat roofs, reflecting Pueblo and Spanish influences.",
+            "culture": "Distinctive elements include roadside art, traditional Pueblo structures, and signs for local festivals or cultural events.",
+            "bonus": "Look for the unique red chili pepper decorations and murals that reflect New Mexico's vibrant culture and history."
+        }
+    },
+    "New York": {
+        "state_name": "New York",
+        "state_fips": "36",
+        "sub_region": "Middle Atlantic",
+        "state_abbr": "NY",
+        "population": 20096494,
+        "pop_sqmi": 413.7,
+        "sqmi": 48578.82,
+        "lat": 43.0944,
+        "lon": -75.6494,
+        "geoguessr_clues": {
+            "cars": "New York's most-common vehicle registration plate is yellow with blue lettering and a blue and yellow border.",
+            "driving": "Major highways include I-87 (Northway), I-90 (Thruway), and I-495 (Long Island Expressway).",
+            "signs": "Road signs in New York often use a mix of green and blue backgrounds, with distinctive white lettering; exit signs may have a unique vertical orientation.",
+            "environment": "New York features diverse landscapes including the Adirondack Mountains, the Hudson River Valley, and urban areas with a mix of parks and densely populated regions.",
+            "infrastructure": "Common architectural styles include brownstones in urban areas, industrial buildings in Buffalo, and modern skyscrapers in New York City.",
+            "culture": "Distinctive markers include yellow taxis in urban areas, food trucks, and billboards advertising Broadway shows.",
+            "bonus": "Look for iconic landmarks such as the Statue of Liberty, Central Park, and the unique skyline of Manhattan, which may be visible in urban settings."
+        }
+    },
+    "North Carolina": {
+        "state_name": "North Carolina",
+        "state_fips": "37",
+        "sub_region": "South Atlantic",
+        "state_abbr": "NC",
+        "population": 10304250,
+        "pop_sqmi": 208.8,
+        "sqmi": 49339.57,
+        "lat": 35.5529,
+        "lon": -79.4258,
+        "geoguessr_clues": {
+            "cars": "North Carolina's vehicle registration plates are predominantly blue with a white background and feature the state motto, 'First in Flight'.",
+            "driving": "Major highways include Interstate 40, Interstate 85, and Interstate 95, which traverse the state.",
+            "signs": "North Carolina road signs typically use a green background with white lettering, similar to the national standard, but state-specific signs often feature a state logo.",
+            "environment": "The state is characterized by diverse landscapes, including the Appalachian Mountains in the west, coastal plains in the east, and a mix of pine forests and farmland throughout.",
+            "infrastructure": "Architectural styles include Colonial Revival and Southern Gothic elements, with many historic towns featuring brick storefronts and antebellum homes.",
+            "culture": "Look for distinctive features like tobacco barns in rural areas, barbecue joints, and historical markers commemorating the state's rich history.",
+            "bonus": "North Carolina is known for its vibrant college towns, particularly around the Research Triangle, and you'll often see university-themed signs and properties."
+        }
+    },
+    "North Dakota": {
+        "state_name": "North Dakota",
+        "state_fips": "38",
+        "sub_region": "West North Central",
+        "state_abbr": "ND",
+        "population": 793399,
+        "pop_sqmi": 11.2,
+        "sqmi": 70700.02,
+        "lat": 47.4684,
+        "lon": -100.4725,
+        "geoguessr_clues": {
+            "cars": "North Dakota's most-common vehicle registration plate features a blue background with a yellow bison and a white outline.",
+            "driving": "Major highways include Interstate 94 and Interstate 29, which run east-west and north-south respectively.",
+            "signs": "Road signs often feature a unique blue background with white lettering, and highway signs may include illustrations of local wildlife.",
+            "environment": "North Dakota is characterized by vast plains, rolling hills, and agricultural fields, with notable features like the Badlands and the Missouri River.",
+            "infrastructure": "Common architectural styles include prairie-style homes and ranch-style buildings, with many small towns featuring historic brick buildings.",
+            "culture": "Distinctive markers include grain elevators, rodeo signs, and Native American cultural symbols, particularly in areas with reservations.",
+            "bonus": "Look for the state’s iconic Theodore Roosevelt National Park signs and the presence of Native American reservations along the roads."
+        }
+    },
+    "Ohio": {
+        "state_name": "Ohio",
+        "state_fips": "39",
+        "sub_region": "East North Central",
+        "state_abbr": "OH",
+        "population": 11755535,
+        "pop_sqmi": 284.9,
+        "sqmi": 41256.24,
+        "lat": 40.3028,
+        "lon": -82.7852,
+        "geoguessr_clues": {
+            "cars": "Ohio's most-common vehicle registration plate features a blue background with white lettering and a red stripe at the bottom.",
+            "driving": "Major highways include Interstate 70, Interstate 75, and Interstate 71, which are key routes through the state.",
+            "signs": "Ohio road signs typically feature a distinctive blue and yellow color scheme for tourist destinations, which may differ from standard white and green signs seen in other states.",
+            "environment": "Ohio is characterized by rolling hills, farmland, and a mix of deciduous forests, particularly in the eastern and southern areas.",
+            "infrastructure": "Common architectural styles include brick buildings from the late 19th century, as well as modern designs in urban areas like Columbus and Cleveland.",
+            "culture": "Look for distinctive markers such as barns with 'Ohio' painted on them, as well as signs for local festivals and county fairs.",
+            "bonus": "The presence of the Buckeye tree and various sports team paraphernalia, especially Ohio State University merchandise, can also be indicators of the state's identity."
+        }
+    },
+    "Oklahoma": {
+        "state_name": "Oklahoma",
+        "state_fips": "40",
+        "sub_region": "West South Central",
+        "state_abbr": "OK",
+        "population": 4027541,
+        "pop_sqmi": 57.6,
+        "sqmi": 69900.14,
+        "lat": 35.5995,
+        "lon": -97.5167,
+        "geoguessr_clues": {
+            "cars": "Oklahoma's most-common vehicle registration plate features a blue background with a Native American peace pipe and feathers, along with the words 'Oklahoma' and 'Native America'.",
+            "driving": "Major highways include Interstate 44, Interstate 35, and U.S. Route 66, which is historic and often marked with iconic signs.",
+            "signs": "Oklahoma road signs typically use a green background with white lettering, similar to the national standard, but may feature distinctive symbols such as the state seal.",
+            "environment": "Oklahoma is characterized by vast plains, rolling hills, and a mix of prairie and forest areas. It has red soil, and agriculture is prominent with wheat and cattle ranching.",
+            "infrastructure": "Common architectural styles include mid-century modern, ranch-style homes, and brick buildings. The presence of wind turbines in rural areas is also notable.",
+            "culture": "Look for distinctive markers such as Native American murals, cowboy statues, and the presence of rodeo arenas along the roadways.",
+            "bonus": "Unique features include Route 66 memorabilia, oil wells in rural areas, and the occasional tornado shelter signs that indicate the area's susceptibility to severe weather."
+        }
+    },
+    "Oregon": {
+        "state_name": "Oregon",
+        "state_fips": "41",
+        "sub_region": "Pacific",
+        "state_abbr": "OR",
+        "population": 4122334,
+        "pop_sqmi": 42.5,
+        "sqmi": 97076.81,
+        "lat": 43.964,
+        "lon": -120.5515,
+        "geoguessr_clues": {
+            "cars": "Oregon's most-common vehicle registration plate features a blue background with a depiction of a tree, often accompanied by a yellow sunburst.",
+            "driving": "Major highways include Interstate 5 (I-5), which runs north to south, and U.S. Route 101, which runs along the coastline.",
+            "signs": "Oregon road signs often use a green background for informational signs, and the state has unique blue and yellow highway signs for scenic byways.",
+            "environment": "Oregon is known for its diverse landscapes, including dense forests, coastal cliffs, and agricultural valleys, particularly in the Willamette Valley.",
+            "infrastructure": "Common architectural styles include Craftsman homes, mid-century modern designs, and a notable presence of eco-friendly buildings.",
+            "culture": "Distinctive markers include vineyards and wineries, food trucks, and an abundance of bike lanes and cycling infrastructure.",
+            "bonus": "Look for signs of the state's emphasis on sustainability, such as solar panels, as well as unique roadside attractions like the giant Paul Bunyan statue in Bend."
+        }
+    },
+    "Pennsylvania": {
+        "state_name": "Pennsylvania",
+        "state_fips": "42",
+        "sub_region": "Middle Atlantic",
+        "state_abbr": "PA",
+        "population": 12976662,
+        "pop_sqmi": 286.5,
+        "sqmi": 45292.96,
+        "lat": 40.8847,
+        "lon": -77.803,
+        "geoguessr_clues": {
+            "cars": "Pennsylvania's most-common vehicle registration plate features a blue and yellow color scheme with horizontal stripes.",
+            "driving": "Major highways include Interstate 76 (the Pennsylvania Turnpike), Interstate 95, and Interstate 81.",
+            "signs": "Road signs in Pennsylvania typically use a combination of standard U.S. sign designs but may include unique historical markers.",
+            "environment": "The state is characterized by rolling hills, dense forests, and farmland, with notable features such as the Appalachian Mountains.",
+            "infrastructure": "Common architectural styles include Victorian and Colonial homes, as well as red-brick buildings in urban areas.",
+            "culture": "Distinctive markers include the Amish buggies in Lancaster County and numerous covered bridges throughout the state.",
+            "bonus": "Pennsylvania is home to the Liberty Bell and many historical landmarks, which can sometimes be seen in urban settings."
+        }
+    },
+    "Rhode Island": {
+        "state_name": "Rhode Island",
+        "state_fips": "44",
+        "sub_region": "New England",
+        "state_abbr": "RI",
+        "population": 1064615,
+        "pop_sqmi": 979.5,
+        "sqmi": 1086.87,
+        "lat": 41.7082,
+        "lon": -71.6308,
+        "geoguessr_clues": {
+            "cars": "Rhode Island's vehicle registration plates are primarily white with a blue stripe and feature an image of the state anchor, which is unique to the state.",
+            "driving": "Major highways include I-95, I-195, and Route 6, which are significant for navigation within and through the state.",
+            "signs": "Rhode Island road signs typically feature green backgrounds with white lettering, consistent with national standards, but may have unique state-specific markers.",
+            "environment": "Rhode Island features coastal landscapes, sandy beaches, and wooded areas, with a mix of urban and rural settings, including farms and waterfronts.",
+            "infrastructure": "Common architectural styles include Colonial and Victorian homes, with many historic buildings and lighthouses along the coast.",
+            "culture": "Distinctive markers include seafood shacks, unique coffee milk shops, and historic landmarks like the WaterFire installations in Providence.",
+            "bonus": "Look for the iconic Narragansett Bay views, small fishing boats, and the prevalence of nautical themes in decor and signage throughout the state."
+        }
+    },
+    "South Carolina": {
+        "state_name": "South Carolina",
+        "state_fips": "45",
+        "sub_region": "South Atlantic",
+        "state_abbr": "SC",
+        "population": 5037131,
+        "pop_sqmi": 162.8,
+        "sqmi": 30941.68,
+        "lat": 33.932,
+        "lon": -80.9044,
+        "geoguessr_clues": {
+            "cars": "South Carolina's most-common vehicle registration plate features a blue background with a white palmetto tree and a crescent moon.",
+            "driving": "Major highways include Interstate 95 (I-95) and Interstate 26 (I-26), as well as U.S. Route 17.",
+            "signs": "Highway signs in South Carolina have a distinctive green color with white lettering, similar to the national standard but may feature the state outline.",
+            "environment": "The landscape includes coastal plains, pine forests, and wetlands, with prominent species like palmetto trees and live oaks.",
+            "infrastructure": "Common architectural styles include Southern colonial homes, antebellum mansions, and low-rise commercial buildings with brick facades.",
+            "culture": "Look for roadside markers like historic plantation homes, cotton fields, and barbecue shacks, which are iconic to South Carolina.",
+            "bonus": "Unique features include welcome signs with the palmetto tree emblem, historic markers, and the prevalence of Confederate flag imagery in some areas."
+        }
+    },
+    "South Dakota": {
+        "state_name": "South Dakota",
+        "state_fips": "46",
+        "sub_region": "West North Central",
+        "state_abbr": "SD",
+        "population": 880051,
+        "pop_sqmi": 11.4,
+        "sqmi": 77116.22,
+        "lat": 44.4525,
+        "lon": -100.237,
+        "geoguessr_clues": {
+            "cars": "South Dakota's vehicle registration plates are predominantly yellow with a blue outline and feature the state name and Mount Rushmore.",
+            "driving": "Major highways include Interstate 90 (I-90) and Interstate 29 (I-29), which are essential for navigation in the state.",
+            "signs": "Road signs in South Dakota are similar to the US norm but often feature the state outline or specific symbols representing local attractions.",
+            "environment": "The landscape features rolling hills, the Black Hills region, prairies, and significant agricultural areas with corn and soybeans.",
+            "infrastructure": "Common architectural styles include prairie-style homes, log cabins, and Western-style storefronts, especially in smaller towns.",
+            "culture": "Distinctive markers include Native American reservations, roadside attractions like the Corn Palace, and historic sites related to the Gold Rush.",
+            "bonus": "Look for unique geological formations such as Badlands National Park and the presence of buffalo herds in rural areas."
+        }
+    },
+    "Tennessee": {
+        "state_name": "Tennessee",
+        "state_fips": "47",
+        "sub_region": "East South Central",
+        "state_abbr": "TN",
+        "population": 6766460,
+        "pop_sqmi": 160.6,
+        "sqmi": 42142.36,
+        "lat": 35.8507,
+        "lon": -86.3305,
+        "geoguessr_clues": {
+            "cars": "Tennessee's vehicle registration plate is predominantly white with a blue and red band at the top, featuring the state seal in the center.",
+            "driving": "Major highways include Interstate 40, Interstate  Tennessee 65, and Interstate 75, which are key routes through the state.",
+            "signs": "Tennessee road signs typically feature green backgrounds with white lettering, and directional signs may have a unique font style that distinguishes them from other states.",
+            "environment": "Tennessee is known for its rolling hills, dense forests, and rivers, particularly the Tennessee River. Agriculture includes corn, soybeans, and cotton.",
+            "infrastructure": "Common architectural styles include Antebellum homes, log cabins, and modern urban buildings in cities like Nashville and Memphis.",
+            "culture": "Distinctive markers include iconic roadside attractions like BBQ joints, music venues, and a prevalence of country music-related signage.",
+            "bonus": "Look for signs of the Great Smoky Mountains, as well as historical markers related to the Civil War, which are prevalent throughout the state."
+        }
+    },
+    "Texas": {
+        "state_name": "Texas",
+        "state_fips": "48",
+        "sub_region": "West South Central",
+        "state_abbr": "TX",
+        "population": 28296099,
+        "pop_sqmi": 106.9,
+        "sqmi": 264778.77,
+        "lat": 31.5767,
+        "lon": -99.3726,
+        "geoguessr_clues": {
+            "cars": "Texas vehicle registration plates are predominantly white with a blue top, featuring the state's name and a lone star.",
+            "driving": "Major highways include Interstate 10, Interstate 20, and Interstate 35, which run across the state in various directions.",
+            "signs": "Texas road signs often feature the shape of the state on highway markers and use the standard green color for informational signs.",
+            "environment": "Texas features diverse landscapes including deserts, rolling hills, pine forests in the east, and vast agricultural fields.",
+            "infrastructure": "Architectural styles include ranch-style homes, Spanish mission architecture, and modern skyscrapers in urban areas like Houston and Dallas.",
+            "culture": "Distinctive markers include cattle ranches, windmills, and BBQ joints along highways, as well as numerous Tex-Mex restaurants.",
+            "bonus": "Look for the Texas flag prominently displayed on buildings and roadside attractions, as well as large billboards advertising local events and attractions."
+        }
+    },
+    "Utah": {
+        "state_name": "Utah",
+        "state_fips": "49",
+        "sub_region": "Mountain",
+        "state_abbr": "UT",
+        "population": 3113215,
+        "pop_sqmi": 36.7,
+        "sqmi": 84898.13,
+        "lat": 39.363,
+        "lon": -111.6802,
+        "geoguessr_clues": {
+            "cars": "Utah's most-common vehicle registration plate features a blue background with a large depiction of the state flag, which includes elements of red and white.",
+            "driving": "Major highways include Interstate 15 (I-15), Interstate 70 (I-70), and Interstate 80 (I-80), which are key routes through the state.",
+            "signs": "Utah road signs typically have a distinct blue and white color scheme, with some signs incorporating mountain imagery which is characteristic of the region.",
+            "environment": "Utah is known for its diverse landscapes, including red rock formations, deserts, and mountainous areas like the Wasatch Range. Vegetation includes sagebrush and conifer forests in higher elevations.",
+            "infrastructure": "Architectural styles often feature adobe and stone buildings, especially in rural areas, as well as modern designs in urban centers like Salt Lake City.",
+            "culture": "Distinctive markers include the prevalence of LDS (Mormon) churches, as well as unique roadside attractions such as the Great Salt Lake and various national parks like Zion and Arches.",
+            "bonus": "Look for the presence of ski resorts and mountain biking trails, as well as signs for local festivals and events that celebrate Utah's outdoor culture."
+        }
+    },
+    "Vermont": {
+        "state_name": "Vermont",
+        "state_fips": "50",
+        "sub_region": "New England",
+        "state_abbr": "VT",
+        "population": 642128,
+        "pop_sqmi": 66.8,
+        "sqmi": 9614.43,
+        "lat": 44.0824,
+        "lon": -72.6589,
+        "geoguessr_clues": {
+            "cars": "Vermont's vehicle registration plates are predominantly green with a white outline and feature a depiction of the state's seal.",
+            "driving": "Major highways include Interstate 89 and Interstate 91, as well as U.S. Route 7 and U.S. Route 4.",
+            "signs": "Vermont uses green road signs, and the state has unique road signs for scenic routes and state parks.",
+            "environment": "Vermont is characterized by rolling hills, dense forests, and agricultural landscapes, including dairy farms and maple syrup production.",
+            "infrastructure": "Common architectural styles include classic New England homes, covered bridges, and brick buildings in urban areas like Burlington.",
+            "culture": "Distinctive markers include farm stands, roadside markets, and historical markers related to the state's Revolutionary War history.",
+            "bonus": "Look for the iconic Green Mountains, fall foliage, and ski resorts, which are prominent features in Vermont's landscape."
+        }
+    },
+    "Virginia": {
+        "state_name": "Virginia",
+        "state_fips": "51",
+        "sub_region": "South Atlantic",
+        "state_abbr": "VA",
+        "population": 8513496,
+        "pop_sqmi": 212.9,
+        "sqmi": 39995.61,
+        "lat": 37.5245,
+        "lon": -78.941,
+        "geoguessr_clues": {
+            "cars": "Virginia's most-common vehicle registration plate is blue with a white background and features the state seal.",
+            "driving": "Key highways include Interstate 95 (I-95), Interstate 64 (I-64), and Interstate 81 (I-81), which traverse the state.",
+            "signs": "Virginia road signs often have a distinctive dark green background and white lettering, with some signs featuring the state's iconic 'Virginia is for Lovers' slogan.",
+            "environment": "Virginia is characterized by rolling hills, the Appalachian Mountains, and a mix of deciduous forests and agricultural land, particularly in the Shenandoah Valley.",
+            "infrastructure": "Colonial and Federal architectural styles are prevalent, with historic buildings and homes, especially in cities like Williamsburg and Richmond.",
+            "culture": "Common cultural markers include Civil War battlefields, historic plantations, and roadside farm stands selling local produce.",
+            "bonus": "Look for historical markers that commemorate events and figures from American history, especially related to the Revolutionary and Civil Wars."
+        }
+    },
+    "Washington": {
+        "state_name": "Washington",
+        "state_fips": "53",
+        "sub_region": "Pacific",
+        "state_abbr": "WA",
+        "population": 7311450,
+        "pop_sqmi": 108.1,
+        "sqmi": 67620.68,
+        "lat": 47.3929,
+        "lon": -120.4073,
+        "geoguessr_clues": {
+            "cars": "Washington's most-common vehicle registration plate features a blue background with a green outline of the state and a picture of George Washington, often with a yellow sunburst at the bottom.",
+            "driving": "Major highways include Interstate 5 (I-5), which runs along the west coast, and Interstate 90 (I-90), which crosses the state east to west.",
+            "signs": "Road signs in Washington often use a green color scheme, and exit signs typically have a white font on a green background, consistent with the US norm.",
+            "environment": "Washington is known for its diverse geography, including the Cascade Range, coastal beaches, lush forests, and agricultural areas with vineyards and orchards.",
+            "infrastructure": "Common architectural styles include Victorian homes in Seattle, mid-century modern buildings, and the unique design of the Space Needle.",
+            "culture": "Distinctive markers include coffee shops, farmers' markets, and vineyards, as well as the iconic totem poles in parks.",
+            "bonus": "Look for the presence of evergreen trees, as Washington is nicknamed the 'Evergreen State,' and the state is known for its distinctive Puget Sound waterfront views."
+        }
+    },
+    "West Virginia": {
+        "state_name": "West Virginia",
+        "state_fips": "54",
+        "sub_region": "South Atlantic",
+        "state_abbr": "WV",
+        "population": 1892804,
+        "pop_sqmi": 78.1,
+        "sqmi": 24229.88,
+        "lat": 38.6505,
+        "lon": -80.6091,
+        "geoguessr_clues": {
+            "cars": "West Virginia's vehicle registration plates are primarily blue with gold lettering and feature a state outline with mountains and a farmer.",
+            "driving": "Major highways include Interstate 64, Interstate 77, and Interstate 79, which are key routes through the state.",
+            "signs": "Road signs in West Virginia typically use the standard federal font but may include unique local identifiers such as the state's outline on certain signs.",
+            "environment": "West Virginia is characterized by its mountainous terrain, dense forests, and rolling hills, often with visible coal mining areas and Appalachian flora.",
+            "infrastructure": "Architectural styles include log cabins, Victorian homes, and brick buildings, with many towns featuring historic downtown areas and covered bridges.",
+            "culture": "Distinctive markers include Appalachian music venues, local farm stands, and signs for outdoor activities like white-water rafting and hiking.",
+            "bonus": "Look for the presence of unique geological features like the New River Gorge and distinctive local festivals that may have signage along the road."
+        }
+    },
+    "Wisconsin": {
+        "state_name": "Wisconsin",
+        "state_fips": "55",
+        "sub_region": "East North Central",
+        "state_abbr": "WI",
+        "population": 5824481,
+        "pop_sqmi": 103.8,
+        "sqmi": 56103.98,
+        "lat": 44.6606,
+        "lon": -90.0426,
+        "geoguessr_clues": {
+            "cars": "Wisconsin's vehicle registration plates are primarily white with a blue and yellow design, featuring the state outline and a depiction of the state motto, 'Forward'.",
+            "driving": "Major highways include Interstate 90, Interstate 94, and Interstate 43, which are key routes in the state.",
+            "signs": "Wisconsin road signs typically use the standard US style but may feature specific state symbols or colors, such as green and white for state route signs.",
+            "environment": "Wisconsin is characterized by its diverse landscape, including rolling hills, dense forests, farmland, and numerous lakes, particularly in the northern regions.",
+            "infrastructure": "Common architectural styles include traditional red barns, dairy farms, and historic brick buildings in urban areas like Milwaukee and Madison.",
+            "culture": "Distinctive markers include cheese factories, dairy farms, and breweries, reflecting Wisconsin's reputation for cheese production and beer culture.",
+            "bonus": "Look for the presence of snowmobiles in winter months, and signs indicating local festivals or fairs, which are frequent in Wisconsin communities."
+        }
+    },
+    "Wyoming": {
+        "state_name": "Wyoming",
+        "state_fips": "56",
+        "sub_region": "Mountain",
+        "state_abbr": "WY",
+        "population": 598332,
+        "pop_sqmi": 6.1,
+        "sqmi": 97813.89,
+        "lat": 43.0309,
+        "lon": -107.5531,
+        "geoguessr_clues": {
+            "cars": "Wyoming's vehicle registration plates are primarily white with a blue outline and feature a silhouette of a bucking horse and rider.",
+            "driving": "Major highways include Interstate 80 (I-80) and U.S. Route 287, which are significant for identifying the state.",
+            "signs": "Wyoming road signs often feature a blue background with white lettering, and highway signs may include unique symbols or icons representing local wildlife.",
+            "environment": "The landscape of Wyoming is characterized by wide-open spaces, rolling hills, mountain ranges such as the Rockies, and sparse tree coverage with areas of grassland and sagebrush.",
+            "infrastructure": "Architectural styles include rustic log cabins and ranch-style homes, with some towns featuring western-themed buildings and historical structures.",
+            "culture": "Distinctive markers include rodeo arenas, cowboy-themed establishments, and the presence of large ranches or farms, as well as signs for national parks like Yellowstone.",
+            "bonus": "Look for unique natural features such as geysers, hot springs, and the distinctive rock formations of places like Devil's Tower, which are iconic to Wyoming."
+        }
+    }
+}
